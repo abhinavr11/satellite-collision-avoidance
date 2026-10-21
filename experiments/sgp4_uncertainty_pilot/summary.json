@@ -1,0 +1,384 @@
+{
+  "description": "SGP4 positions unchanged; compare fitted fixed isotropic, horizon-only isotropic, and direction/horizon RTN uncertainty models.",
+  "splits": {
+    "train": 540,
+    "gap": 96,
+    "test": 344
+  },
+  "training_issue_dates": "2025-01-01 through 2025-01-17",
+  "excluded_gap_issue_dates": "2025-01-18 through 2025-01-20",
+  "test_issue_dates": "2025-01-21 through 2025-01-31",
+  "sanity_checks": {
+    "max_interpolation_crosscheck_m": 0.00029776667157240666,
+    "max_frame_roundtrip_error_m": 2.9451005721170265e-09,
+    "max_explicit_rotation_crosscheck_m": 2.1339280972982942e-09,
+    "latest_training_target_utc": "2025-01-19T22:08:14.367264+00:00",
+    "earliest_test_issue_utc": "2025-01-21T14:24:42.160608+00:00",
+    "prediction_vectors_unchanged_by_calibration": true,
+    "gps_utc_offset_seconds": 18,
+    "sgp4_gravity_model": "WGS72"
+  },
+  "model_parameters": {
+    "baseline": {
+      "isotropic_sigma_m": 2603.9179544114995,
+      "fitted_parameters": 1
+    },
+    "horizon_isotropic": {
+      "fitted_parameters": 4,
+      "sigma_by_horizon_m": {
+        "6": 441.714145990479,
+        "12": 665.7816071455294,
+        "24": 1459.3289117467343,
+        "48": 4934.930338453116
+      }
+    },
+    "calibrated": {
+      "by_horizon_hours": {
+        "6": {
+          "train_rows": 135,
+          "sigma_rtn_m": [
+            73.81224944421187,
+            729.8802902895911,
+            217.1650846316279
+          ],
+          "training_mean_error_rtn_m": [
+            13.150260265781506,
+            137.4524131156909,
+            21.777421280393522
+          ]
+        },
+        "12": {
+          "train_rows": 135,
+          "sigma_rtn_m": [
+            89.41994522665279,
+            1132.44825650773,
+            198.39472011149132
+          ],
+          "training_mean_error_rtn_m": [
+            -18.613978088519758,
+            258.62093370473747,
+            -9.3923729035072
+          ]
+        },
+        "24": {
+          "train_rows": 135,
+          "sigma_rtn_m": [
+            134.15756185697842,
+            2517.8257468108964,
+            177.42005318585015
+          ],
+          "training_mean_error_rtn_m": [
+            -75.19880234417032,
+            41.029389324153954,
+            30.45632281586737
+          ]
+        },
+        "48": {
+          "train_rows": 135,
+          "sigma_rtn_m": [
+            151.4709213956129,
+            8543.794891591628,
+            203.07079194049163
+          ],
+          "training_mean_error_rtn_m": [
+            -63.47287304896109,
+            500.297697426998,
+            12.97726884802606
+          ]
+        }
+      },
+      "fitted_parameters": 12
+    }
+  },
+  "test_scores": {
+    "baseline": {
+      "all": {
+        "test_rows": 344,
+        "joint_coverage": {
+          "0.5": 0.9796511627906976,
+          "0.8": 0.997093023255814,
+          "0.9": 1.0,
+          "0.95": 1.0,
+          "0.99": 1.0
+        },
+        "mean_absolute_coverage_error": 0.16734883720930233,
+        "mean_negative_log_likelihood": 26.47427482881033,
+        "mean_95pct_ellipsoid_volume_m3": 1615627695873.387
+      },
+      "6": {
+        "test_rows": 86,
+        "joint_coverage": {
+          "0.5": 1.0,
+          "0.8": 1.0,
+          "0.9": 1.0,
+          "0.95": 1.0,
+          "0.99": 1.0
+        },
+        "mean_absolute_coverage_error": 0.172,
+        "mean_negative_log_likelihood": 26.386960533817867,
+        "mean_95pct_ellipsoid_volume_m3": 1615627695873.3872
+      },
+      "12": {
+        "test_rows": 86,
+        "joint_coverage": {
+          "0.5": 1.0,
+          "0.8": 1.0,
+          "0.9": 1.0,
+          "0.95": 1.0,
+          "0.99": 1.0
+        },
+        "mean_absolute_coverage_error": 0.172,
+        "mean_negative_log_likelihood": 26.38903251804401,
+        "mean_95pct_ellipsoid_volume_m3": 1615627695873.3872
+      },
+      "24": {
+        "test_rows": 86,
+        "joint_coverage": {
+          "0.5": 1.0,
+          "0.8": 1.0,
+          "0.9": 1.0,
+          "0.95": 1.0,
+          "0.99": 1.0
+        },
+        "mean_absolute_coverage_error": 0.172,
+        "mean_negative_log_likelihood": 26.38159434954813,
+        "mean_95pct_ellipsoid_volume_m3": 1615627695873.3872
+      },
+      "48": {
+        "test_rows": 86,
+        "joint_coverage": {
+          "0.5": 0.9186046511627907,
+          "0.8": 0.9883720930232558,
+          "0.9": 1.0,
+          "0.95": 1.0,
+          "0.99": 1.0
+        },
+        "mean_absolute_coverage_error": 0.1533953488372093,
+        "mean_negative_log_likelihood": 26.739511913831326,
+        "mean_95pct_ellipsoid_volume_m3": 1615627695873.3872
+      }
+    },
+    "horizon_isotropic": {
+      "all": {
+        "test_rows": 344,
+        "joint_coverage": {
+          "0.5": 0.8691860465116279,
+          "0.8": 0.9418604651162791,
+          "0.9": 0.9796511627906976,
+          "0.95": 0.9883720930232558,
+          "0.99": 1.0
+        },
+        "mean_absolute_coverage_error": 0.12781395348837207,
+        "mean_negative_log_likelihood": 24.55037689844678,
+        "mean_95pct_ellipsoid_volume_m3": 2829250169483.3022
+      },
+      "6": {
+        "test_rows": 86,
+        "joint_coverage": {
+          "0.5": 0.6511627906976745,
+          "0.8": 0.7906976744186046,
+          "0.9": 0.9186046511627907,
+          "0.95": 0.9534883720930233,
+          "0.99": 1.0
+        },
+        "mean_absolute_coverage_error": 0.03851162790697678,
+        "mean_negative_log_likelihood": 22.273857476070024,
+        "mean_95pct_ellipsoid_volume_m3": 7886482148.435602
+      },
+      "12": {
+        "test_rows": 86,
+        "joint_coverage": {
+          "0.5": 0.8255813953488372,
+          "0.8": 0.9767441860465116,
+          "0.9": 1.0,
+          "0.95": 1.0,
+          "0.99": 1.0
+        },
+        "mean_absolute_coverage_error": 0.13246511627906976,
+        "mean_negative_log_likelihood": 22.83942794573863,
+        "mean_95pct_ellipsoid_volume_m3": 27005659066.202137
+      },
+      "24": {
+        "test_rows": 86,
+        "joint_coverage": {
+          "0.5": 1.0,
+          "0.8": 1.0,
+          "0.9": 1.0,
+          "0.95": 1.0,
+          "0.99": 1.0
+        },
+        "mean_absolute_coverage_error": 0.172,
+        "mean_negative_log_likelihood": 24.71099459558614,
+        "mean_95pct_ellipsoid_volume_m3": 284393038283.5029
+      },
+      "48": {
+        "test_rows": 86,
+        "joint_coverage": {
+          "0.5": 1.0,
+          "0.8": 1.0,
+          "0.9": 1.0,
+          "0.95": 1.0,
+          "0.99": 1.0
+        },
+        "mean_absolute_coverage_error": 0.172,
+        "mean_negative_log_likelihood": 28.377227576392304,
+        "mean_95pct_ellipsoid_volume_m3": 10997715498435.072
+      }
+    },
+    "calibrated": {
+      "all": {
+        "test_rows": 344,
+        "joint_coverage": {
+          "0.5": 0.5697674418604651,
+          "0.8": 0.9186046511627907,
+          "0.9": 0.9622093023255814,
+          "0.95": 0.9912790697674418,
+          "0.99": 1.0
+        },
+        "mean_absolute_coverage_error": 0.060372093023255816,
+        "mean_negative_log_likelihood": 21.558615220493014,
+        "mean_95pct_ellipsoid_volume_m3": 8110381589.744175
+      },
+      "6": {
+        "test_rows": 86,
+        "joint_coverage": {
+          "0.5": 0.38372093023255816,
+          "0.8": 0.872093023255814,
+          "0.9": 0.9651162790697675,
+          "0.95": 1.0,
+          "0.99": 1.0
+        },
+        "mean_absolute_coverage_error": 0.06269767441860466,
+        "mean_negative_log_likelihood": 20.551059156126048,
+        "mean_95pct_ellipsoid_volume_m3": 1070605522.8638016
+      },
+      "12": {
+        "test_rows": 86,
+        "joint_coverage": {
+          "0.5": 0.6976744186046512,
+          "0.8": 0.9069767441860465,
+          "0.9": 0.9418604651162791,
+          "0.95": 0.9883720930232558,
+          "0.99": 1.0
+        },
+        "mean_absolute_coverage_error": 0.0789767441860465,
+        "mean_negative_log_likelihood": 20.702907890229664,
+        "mean_95pct_ellipsoid_volume_m3": 1838409595.3629544
+      },
+      "24": {
+        "test_rows": 86,
+        "joint_coverage": {
+          "0.5": 0.5930232558139535,
+          "0.8": 1.0,
+          "0.9": 1.0,
+          "0.95": 1.0,
+          "0.99": 1.0
+        },
+        "mean_absolute_coverage_error": 0.0906046511627907,
+        "mean_negative_log_likelihood": 21.667126589247687,
+        "mean_95pct_ellipsoid_volume_m3": 5484069289.166476
+      },
+      "48": {
+        "test_rows": 86,
+        "joint_coverage": {
+          "0.5": 0.6046511627906976,
+          "0.8": 0.8953488372093024,
+          "0.9": 0.9418604651162791,
+          "0.95": 0.9767441860465116,
+          "0.99": 1.0
+        },
+        "mean_absolute_coverage_error": 0.05572093023255813,
+        "mean_negative_log_likelihood": 23.313367246368667,
+        "mean_95pct_ellipsoid_volume_m3": 24048441951.583473
+      }
+    }
+  },
+  "position_errors_unchanged": {
+    "6": {
+      "rows": 86,
+      "rms_position_error_m": 697.0280136556039,
+      "median_position_error_m": 512.1685443553656,
+      "rms_error_rtn_m": [
+        70.78313591322032,
+        646.4616084997988,
+        250.84893507212755
+      ]
+    },
+    "12": {
+      "rows": 86,
+      "rms_position_error_m": 716.9001107145481,
+      "median_position_error_m": 518.7742250356325,
+      "rms_error_rtn_m": [
+        82.09384903050423,
+        682.4163262725236,
+        203.7506474360291
+      ]
+    },
+    "24": {
+      "rows": 86,
+      "rms_position_error_m": 642.7117715651549,
+      "median_position_error_m": 364.0025395496195,
+      "rms_error_rtn_m": [
+        126.02585762611744,
+        603.0932412748812,
+        182.96023296492442
+      ]
+    },
+    "48": {
+      "rows": 86,
+      "rms_position_error_m": 2294.9332991676415,
+      "median_position_error_m": 1418.894348645367,
+      "rms_error_rtn_m": [
+        177.97272546211596,
+        2280.009806274001,
+        191.3108463063484
+      ]
+    }
+  },
+  "per_satellite_24h_coverage": {
+    "Swarm-A": {
+      "rows": 29,
+      "baseline_95pct_coverage": 1.0,
+      "calibrated_95pct_coverage": 1.0
+    },
+    "Swarm-B": {
+      "rows": 29,
+      "baseline_95pct_coverage": 1.0,
+      "calibrated_95pct_coverage": 1.0
+    },
+    "Swarm-C": {
+      "rows": 28,
+      "baseline_95pct_coverage": 1.0,
+      "calibrated_95pct_coverage": 1.0
+    }
+  },
+  "day_block_bootstrap": {
+    "blocks": 11,
+    "resamples": 2000,
+    "metric": "baseline NLL minus calibrated NLL; positive favors calibrated",
+    "approximate_95pct_interval": [
+      4.847846304797341,
+      4.975738189497684
+    ],
+    "caution": "Only eleven test days; temporal dependence can extend beyond one day."
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.18.1",
+    "astropy": "8.0.2",
+    "sgp4": "2.27",
+    "matplotlib": "3.11.2"
+  },
+  "source_hashes": {
+    "calibration_pairs_index.csv": "ec0860c638fcea74691db1f214424cd2a6a74b1b0cd2e383d99d4b715c26ed1a",
+    "earth_orientation/finals2000A.all": "bfa2066aab0400b075357f573af6081e0068a518993609eee0c5ca991bab0845"
+  },
+  "limitations": [
+    "No verified maneuver labels; all supplied valid cases retained, including possible maneuver contamination.",
+    "One month and three related satellites; same-day/nearby samples are correlated.",
+    "Baseline is an explicit fitted model; SGP4 itself supplies no covariance.",
+    "Zero-mean Gaussian assumption is a simplification; fitted scales include uncorrected bias.",
+    "Reference IGS20/IGb20 realizations are treated as ITRS; centimetre-level realization offsets are negligible at these error scales.",
+    "This experiment does not validate collision probabilities or avoidance maneuvers."
+  ]
+}

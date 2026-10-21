@@ -1,0 +1,1137 @@
+{
+  "conjunctions/esa_collision_avoidance_dataset.zip": {
+    "bytes": 221128642,
+    "category": "historical_conjunctions",
+    "content_type": "application/octet-stream",
+    "downloaded_utc": "2026-10-08T06:08:39.300294+00:00",
+    "provider_md5": "d19dc8875229f2f6893253c38adddc87",
+    "resolved_url": "https://zenodo.org/api/records/4463683/files/Collision%20Avoidance%20Challenge%20-%20Dataset.zip/content",
+    "sha256": "df1500146705305006ea506eeccc97f5c2e9593928d6650c503c4f5b5529d0bb",
+    "source_url": "https://zenodo.org/api/records/4463683/files/Collision%20Avoidance%20Challenge%20-%20Dataset.zip/content"
+  },
+  "conjunctions/socrates_snapshot.csv": {
+    "bytes": 21488568,
+    "category": "current_conjunctions",
+    "content_type": "application/octet-stream",
+    "downloaded_utc": "2026-10-08T06:06:57.450825+00:00",
+    "resolved_url": "https://celestrak.org/SOCRATES/sort-minRange.csv",
+    "sha256": "0fa6ca697703ebbb4a0ab6ea92855673a7936a5d27b151ee69006da5e2882ca9",
+    "source_url": "https://celestrak.org/SOCRATES/sort-minRange.csv"
+  },
+  "documentation/celestrak_usage_policy.html": {
+    "bytes": 13980,
+    "category": "documentation",
+    "content_type": "text/html; charset=UTF-8",
+    "downloaded_utc": "2026-10-08T06:06:56.782296+00:00",
+    "resolved_url": "https://celestrak.org/usage-policy.php",
+    "sha256": "bbcb0d7a0c0d1bbfb4b3c4f5cac4b4ee7d066621f81b7346a525451600bca549",
+    "source_url": "https://celestrak.org/usage-policy.php"
+  },
+  "documentation/esa_columns.html": {
+    "bytes": 24556,
+    "category": "documentation",
+    "content_type": "text/html; charset=utf-8",
+    "downloaded_utc": "2026-10-08T06:06:52.629179+00:00",
+    "resolved_url": "https://live.kelvins.esa.int/collision-avoidance-challenge/data/",
+    "sha256": "dfa20a0247c2fb311beb3112944e635741e35b893a8a728082bc699adaed3992",
+    "source_url": "https://live.kelvins.esa.int/collision-avoidance-challenge/data/"
+  },
+  "documentation/historical_tle_source_LICENSE": {
+    "bytes": 1072,
+    "category": "license",
+    "content_type": "text/plain; charset=utf-8",
+    "downloaded_utc": "2026-10-08T06:06:52.360181+00:00",
+    "resolved_url": "https://raw.githubusercontent.com/Jeong-Seung-Won/-IEEE-Access-Toward-Data-Driven-Satellite-Orbit-Prediction/b1473e2cddbe660f0fde66c3abb8315beadb7653/LICENSE",
+    "sha256": "2fb9a0898accb96349d114dcc3ebe040034f97d1660403da850cd0b47a2b03d3",
+    "source_url": "https://raw.githubusercontent.com/Jeong-Seung-Won/-IEEE-Access-Toward-Data-Driven-Satellite-Orbit-Prediction/b1473e2cddbe660f0fde66c3abb8315beadb7653/LICENSE"
+  },
+  "documentation/historical_tle_source_README.md": {
+    "bytes": 3512,
+    "category": "documentation",
+    "content_type": "text/plain; charset=utf-8",
+    "downloaded_utc": "2026-10-08T06:06:52.145543+00:00",
+    "resolved_url": "https://raw.githubusercontent.com/Jeong-Seung-Won/-IEEE-Access-Toward-Data-Driven-Satellite-Orbit-Prediction/b1473e2cddbe660f0fde66c3abb8315beadb7653/README.md",
+    "sha256": "99e2f45868fc2f412bc008628c494d9d048d75a2e5ea9024d5a8e12cf5524a26",
+    "source_url": "https://raw.githubusercontent.com/Jeong-Seung-Won/-IEEE-Access-Toward-Data-Driven-Satellite-Orbit-Prediction/b1473e2cddbe660f0fde66c3abb8315beadb7653/README.md"
+  },
+  "documentation/socrates_format.html": {
+    "bytes": 16290,
+    "category": "documentation",
+    "content_type": "text/html; charset=UTF-8",
+    "downloaded_utc": "2026-10-08T06:06:56.363732+00:00",
+    "resolved_url": "https://celestrak.org/SOCRATES/socrates-format.php",
+    "sha256": "12f5ce74eaeab5b5493a40601ece7de186fe5163374e272c5a5c3e6ddc6e7223",
+    "source_url": "https://celestrak.org/SOCRATES/socrates-format.php"
+  },
+  "documentation/space_weather_format.txt": {
+    "bytes": 11071,
+    "category": "documentation",
+    "content_type": "text/plain; charset=utf-8",
+    "downloaded_utc": "2026-10-08T06:06:53.155994+00:00",
+    "resolved_url": "https://kp.gfz.de/app/format/Kp_ap_Ap_SN_F107_format.txt",
+    "sha256": "dccb51b9af7fc23a701ed857170e76c77bf151c91dda1dc2095e2b07e7ef7c94",
+    "source_url": "https://kp.gfz.de/app/format/Kp_ap_Ap_SN_F107_format.txt"
+  },
+  "documentation/swarm_precise_orbit_product.html": {
+    "bytes": 4879,
+    "category": "documentation",
+    "content_type": "text/html; charset=utf-8",
+    "downloaded_utc": "2026-10-08T06:08:51.358111+00:00",
+    "resolved_url": "https://swarm-disc.github.io/product-catalogue-tools/SW_SP3xCOM_2_.html",
+    "sha256": "17af080affd5558319a2ed7da5dd89515231fe42df96cba03d3dc8d65e78b4b7",
+    "source_url": "https://swarm-disc.github.io/product-catalogue-tools/SW_SP3xCOM_2_.html"
+  },
+  "earth_orientation/Leap_Second.dat": {
+    "bytes": 1352,
+    "category": "time_conversion",
+    "content_type": "",
+    "downloaded_utc": "2026-10-08T06:06:53.730155+00:00",
+    "resolved_url": "https://hpiers.obspm.fr/iers/bul/bulc/Leap_Second.dat",
+    "sha256": "6cb6f5d4b819f2e568e25db4b0b26d89dedf031fdffb18bc94d40f4e94e268d7",
+    "source_url": "https://hpiers.obspm.fr/iers/bul/bulc/Leap_Second.dat"
+  },
+  "earth_orientation/finals2000A.all": {
+    "bytes": 3769212,
+    "category": "earth_orientation",
+    "content_type": "",
+    "downloaded_utc": "2026-10-08T06:06:59.617331+00:00",
+    "resolved_url": "https://datacenter.iers.org/data/9/finals2000A.all",
+    "sha256": "9fbc14ae5e71de96cc1e6b43b54a547acc80c7a6ce910c0209ad6230ff3d30cd",
+    "source_url": "https://datacenter.iers.org/data/9/finals2000A.all"
+  },
+  "metadata/esa_collision_dataset.json": {
+    "bytes": 5862,
+    "category": "source_metadata",
+    "content_type": "application/json",
+    "downloaded_utc": "2026-10-08T06:06:52.527756+00:00",
+    "resolved_url": "https://zenodo.org/api/records/4463683",
+    "sha256": "086465471eec60700b69279d87299f5d04818f7e5f271ca56cd33a789450029f",
+    "source_url": "https://zenodo.org/api/records/4463683"
+  },
+  "metadata/historical_tle_git_tree.json": {
+    "bytes": 76555,
+    "category": "source_metadata",
+    "content_type": "application/json; charset=utf-8",
+    "downloaded_utc": "2026-10-08T06:06:52.886036+00:00",
+    "resolved_url": "https://api.github.com/repos/Jeong-Seung-Won/-IEEE-Access-Toward-Data-Driven-Satellite-Orbit-Prediction/git/trees/b1473e2cddbe660f0fde66c3abb8315beadb7653?recursive=1",
+    "sha256": "ea116c4ae760bf532a5f167ed1dacfa756d9fde25cf33803c784b72144dca310",
+    "source_url": "https://api.github.com/repos/Jeong-Seung-Won/-IEEE-Access-Toward-Data-Driven-Satellite-Orbit-Prediction/git/trees/b1473e2cddbe660f0fde66c3abb8315beadb7653?recursive=1"
+  },
+  "metadata/swarm_A_listing.json": {
+    "bytes": 156048,
+    "category": "source_metadata",
+    "content_type": "text/html; charset=UTF-8",
+    "downloaded_utc": "2026-10-08T06:06:58.716978+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=500&pos=4000&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A",
+    "sha256": "cc429eb30401814e312f6f7de3c3529785bdf576bbd1c1ac893e59a6970f8f4c",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=500&pos=4000&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A"
+  },
+  "metadata/swarm_A_listing_4000_2000.json": {
+    "bytes": 543864,
+    "category": "source_metadata",
+    "content_type": "text/html; charset=UTF-8",
+    "downloaded_utc": "2026-10-08T06:08:53.752119+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=2000&pos=4000&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A",
+    "sha256": "9c5b0dd1866a02b3a8435c557fd6d00ec05b3148fe381a2730e7e69295782d1d",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=2000&pos=4000&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A"
+  },
+  "metadata/swarm_B_listing.json": {
+    "bytes": 156048,
+    "category": "source_metadata",
+    "content_type": "text/html; charset=UTF-8",
+    "downloaded_utc": "2026-10-08T06:06:59.132394+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=500&pos=4000&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B",
+    "sha256": "7c5701f2af062737fd116b9d690cf5105eba25e87fa4734337ac8a2b3d6c5c4e",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=500&pos=4000&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B"
+  },
+  "metadata/swarm_B_listing_4000_2000.json": {
+    "bytes": 558528,
+    "category": "source_metadata",
+    "content_type": "text/html; charset=UTF-8",
+    "downloaded_utc": "2026-10-08T06:08:53.854907+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=2000&pos=4000&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B",
+    "sha256": "07d146ab1d8521f79fd57362e6704818aabf9f7ba85273412c749a82913dc4ee",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=2000&pos=4000&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B"
+  },
+  "metadata/swarm_C_listing.json": {
+    "bytes": 156048,
+    "category": "source_metadata",
+    "content_type": "text/html; charset=UTF-8",
+    "downloaded_utc": "2026-10-08T06:07:00.016359+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=500&pos=4000&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C",
+    "sha256": "6f6ec37ebcf56633a96e4aeeff85e77b9b0a8c4a190c412906a66c0a8e9bae17",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=500&pos=4000&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C"
+  },
+  "metadata/swarm_C_listing_4000_2000.json": {
+    "bytes": 546048,
+    "category": "source_metadata",
+    "content_type": "text/html; charset=UTF-8",
+    "downloaded_utc": "2026-10-08T06:08:54.999907+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=2000&pos=4000&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C",
+    "sha256": "8a36b299a432ffa0070fe09c026589b0dff554679761d286e588de87c2fe314f",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=2000&pos=4000&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C"
+  },
+  "orbit_predictions/current_active_gp.csv": {
+    "bytes": 2525906,
+    "category": "current_orbit_snapshot",
+    "content_type": "text/plain; charset=UTF-8",
+    "downloaded_utc": "2026-10-08T06:06:55.916803+00:00",
+    "resolved_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=active&FORMAT=csv",
+    "sha256": "8743ec371b9ca54c387e2de682b4fcfec62befb33136c9f978bb690d4aca52b4",
+    "source_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=active&FORMAT=csv"
+  },
+  "orbit_predictions/historical/Swarm-A.tle": {
+    "bytes": 1371019,
+    "category": "historical_orbit_predictions",
+    "content_type": "text/plain; charset=utf-8",
+    "downloaded_utc": "2026-10-08T06:06:57.168834+00:00",
+    "resolved_url": "https://raw.githubusercontent.com/Jeong-Seung-Won/-IEEE-Access-Toward-Data-Driven-Satellite-Orbit-Prediction/b1473e2cddbe660f0fde66c3abb8315beadb7653/TLE/Swarm-A.tle",
+    "sha256": "a769e94a067543d4c13e62a5165f5b27317a9d0a5a2c334bdd13e6bb8d568104",
+    "source_url": "https://raw.githubusercontent.com/Jeong-Seung-Won/-IEEE-Access-Toward-Data-Driven-Satellite-Orbit-Prediction/b1473e2cddbe660f0fde66c3abb8315beadb7653/TLE/Swarm-A.tle"
+  },
+  "orbit_predictions/historical/Swarm-B.tle": {
+    "bytes": 1352399,
+    "category": "historical_orbit_predictions",
+    "content_type": "text/plain; charset=utf-8",
+    "downloaded_utc": "2026-10-08T06:06:57.508754+00:00",
+    "resolved_url": "https://raw.githubusercontent.com/Jeong-Seung-Won/-IEEE-Access-Toward-Data-Driven-Satellite-Orbit-Prediction/b1473e2cddbe660f0fde66c3abb8315beadb7653/TLE/Swarm-B.tle",
+    "sha256": "99948dccd4dc9374a140e7627222e3713d7cd53b14e468c8877bdceb05f30d04",
+    "source_url": "https://raw.githubusercontent.com/Jeong-Seung-Won/-IEEE-Access-Toward-Data-Driven-Satellite-Orbit-Prediction/b1473e2cddbe660f0fde66c3abb8315beadb7653/TLE/Swarm-B.tle"
+  },
+  "orbit_predictions/historical/Swarm-C.tle": {
+    "bytes": 1375639,
+    "category": "historical_orbit_predictions",
+    "content_type": "text/plain; charset=utf-8",
+    "downloaded_utc": "2026-10-08T06:06:57.840813+00:00",
+    "resolved_url": "https://raw.githubusercontent.com/Jeong-Seung-Won/-IEEE-Access-Toward-Data-Driven-Satellite-Orbit-Prediction/b1473e2cddbe660f0fde66c3abb8315beadb7653/TLE/Swarm-C.tle",
+    "sha256": "128db805b3460287d3f26aec32d75ba902edcf7cbd9ccc04d00ee5b622e72161",
+    "source_url": "https://raw.githubusercontent.com/Jeong-Seung-Won/-IEEE-Access-Toward-Data-Driven-Satellite-Orbit-Prediction/b1473e2cddbe660f0fde66c3abb8315beadb7653/TLE/Swarm-C.tle"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20241231T235942_20250101T235942_0203.ZIP": {
+    "bytes": 440260,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:08:55.719513+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20241231T235942_20250101T235942_0203.ZIP",
+    "sha256": "24c98b5343d7c7889da4ee0785ea1390cf87101a101221baf3d507ee3f9c5593",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20241231T235942_20250101T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250101T235942_20250102T235942_0203.ZIP": {
+    "bytes": 440200,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:08:57.669575+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250101T235942_20250102T235942_0203.ZIP",
+    "sha256": "501fc594f07474660247ffcc0962e034c56bff181c615ff6171ad9e9068fc69c",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250101T235942_20250102T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250102T235942_20250103T235942_0203.ZIP": {
+    "bytes": 440025,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:08:59.626546+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250102T235942_20250103T235942_0203.ZIP",
+    "sha256": "f9483705326b9e64ca7fb6b87daca6b8fd033c3032794091c942f61e77028090",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250102T235942_20250103T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250103T235942_20250104T235942_0203.ZIP": {
+    "bytes": 440075,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:01.570405+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250103T235942_20250104T235942_0203.ZIP",
+    "sha256": "6656627e5e071be18e5fa61ddba8a34ec250e1e47cb0b745adc41f39a7d6eda4",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250103T235942_20250104T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250104T235942_20250105T235942_0203.ZIP": {
+    "bytes": 440077,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:03.282746+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250104T235942_20250105T235942_0203.ZIP",
+    "sha256": "2bae6a19c53b0c1384ecd039e92c69907a968102dd6845ea1aad8e21710e5778",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250104T235942_20250105T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250105T235942_20250106T235942_0203.ZIP": {
+    "bytes": 439964,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:05.282653+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250105T235942_20250106T235942_0203.ZIP",
+    "sha256": "70432844bacfe2a573884dab37ee6a1636216d2929c4d230f4986753ed3e458c",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250105T235942_20250106T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250106T235942_20250107T235942_0203.ZIP": {
+    "bytes": 439968,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:07.028283+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250106T235942_20250107T235942_0203.ZIP",
+    "sha256": "ca36f903a1f3c8bff243538f111810b5b73790cb00d50733782c23a82ccc9089",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250106T235942_20250107T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250107T235942_20250108T235942_0203.ZIP": {
+    "bytes": 440094,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:09.072182+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250107T235942_20250108T235942_0203.ZIP",
+    "sha256": "168656915573e2ab005eeff6400ca8e2399813e45c8c775aaec556cecd4e9fd4",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250107T235942_20250108T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250108T235942_20250109T235942_0203.ZIP": {
+    "bytes": 439993,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:10.829207+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250108T235942_20250109T235942_0203.ZIP",
+    "sha256": "8f9acb4fa85491f4f1c4aec23f4ed178d66996aeb9ee786eacb82fb418fc9938",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250108T235942_20250109T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250109T235942_20250110T235942_0203.ZIP": {
+    "bytes": 440179,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:12.567292+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250109T235942_20250110T235942_0203.ZIP",
+    "sha256": "630143c769b664ea360ac2c9286e580cfdf660717d8756915a69f7238c92b199",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250109T235942_20250110T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250110T235942_20250111T235942_0203.ZIP": {
+    "bytes": 440147,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:14.515798+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250110T235942_20250111T235942_0203.ZIP",
+    "sha256": "f92da842d9ff80cf7bbbd24bb1bc8bc264c1a042c3eb46bf28146557c5ed87dc",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250110T235942_20250111T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250111T235942_20250112T235942_0203.ZIP": {
+    "bytes": 440057,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:16.627950+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250111T235942_20250112T235942_0203.ZIP",
+    "sha256": "87c30f1fe2bdd944aa764ee11ce3dfda36c759c67d1c101d65f523e64a32543a",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250111T235942_20250112T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250112T235942_20250113T235942_0203.ZIP": {
+    "bytes": 440218,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:18.568131+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250112T235942_20250113T235942_0203.ZIP",
+    "sha256": "74693f6e7d8f08c83fd17e1e87bd361ed8eb670da78028ce789ebbc65914b334",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250112T235942_20250113T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250113T235942_20250114T235942_0203.ZIP": {
+    "bytes": 440127,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:20.520155+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250113T235942_20250114T235942_0203.ZIP",
+    "sha256": "9c587639bf764a2bc813b0bce04b900212a0f750da15e3e6f7d6f175d929c5be",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250113T235942_20250114T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250114T235942_20250115T235942_0203.ZIP": {
+    "bytes": 439952,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:22.472293+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250114T235942_20250115T235942_0203.ZIP",
+    "sha256": "f0fabbff4aee4c24370a0921119e6b6019b6e10ce3a19d69e45325067557969c",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250114T235942_20250115T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250115T235942_20250116T235942_0203.ZIP": {
+    "bytes": 440170,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:24.515255+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250115T235942_20250116T235942_0203.ZIP",
+    "sha256": "14e4dec6683a8d829a64b352192cc45d4ecbb0186bfbf41cf35079c2c9557468",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250115T235942_20250116T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250116T235942_20250117T235942_0203.ZIP": {
+    "bytes": 439895,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:26.567021+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250116T235942_20250117T235942_0203.ZIP",
+    "sha256": "653b410270631ffcdf7d68e2bdbcd86e9ff9afb222677ffe44fc053775a7777d",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250116T235942_20250117T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250117T235942_20250118T235942_0203.ZIP": {
+    "bytes": 440117,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:28.652896+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250117T235942_20250118T235942_0203.ZIP",
+    "sha256": "0c5fb804c66bd71c3fb8e71eb4d2aa0db5bf41a49c3f346b755a6b7438a38dfe",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250117T235942_20250118T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250118T235942_20250119T235942_0203.ZIP": {
+    "bytes": 439967,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:30.521982+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250118T235942_20250119T235942_0203.ZIP",
+    "sha256": "49e9e507d2ba0df4c0febb8db24fa05ec259b9bbc70ae9eaa3b235a231c8f499",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250118T235942_20250119T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250119T235942_20250120T235942_0203.ZIP": {
+    "bytes": 440186,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:32.534776+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250119T235942_20250120T235942_0203.ZIP",
+    "sha256": "44b30f6e1edd7ba557bff499a236e16fd53c9aede437d70447c2e4043455dcc5",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250119T235942_20250120T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250120T235942_20250121T235942_0203.ZIP": {
+    "bytes": 440020,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:34.617299+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250120T235942_20250121T235942_0203.ZIP",
+    "sha256": "7c525d632690179c26ff90c0e2de0870e16fb195070c46326d9b6e79e1bcb64f",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250120T235942_20250121T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250121T235942_20250122T235942_0203.ZIP": {
+    "bytes": 440037,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:36.686355+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250121T235942_20250122T235942_0203.ZIP",
+    "sha256": "3212715fcc296ebbebdcb44b91dc79fae60923e75d3d02fb95cfa8d51e81abda",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250121T235942_20250122T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250122T235942_20250123T235942_0203.ZIP": {
+    "bytes": 440200,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:38.396341+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250122T235942_20250123T235942_0203.ZIP",
+    "sha256": "d04eba8fbccbf240f31c38d606b16a090d8d34a899f340b5e910a5c7d8a5583a",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250122T235942_20250123T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250123T235942_20250124T235942_0203.ZIP": {
+    "bytes": 440140,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:40.236008+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250123T235942_20250124T235942_0203.ZIP",
+    "sha256": "1ab17d75bf72372f3605c03b87e47dae6ad12e1c72d4772f91082556186cc9bb",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250123T235942_20250124T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250124T235942_20250125T235942_0203.ZIP": {
+    "bytes": 439891,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:42.103481+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250124T235942_20250125T235942_0203.ZIP",
+    "sha256": "617c16104833782c81c92645563ffc546fa48e76fb11535134b6de60f01c49a4",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250124T235942_20250125T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250125T235942_20250126T235942_0203.ZIP": {
+    "bytes": 439952,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:44.054770+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250125T235942_20250126T235942_0203.ZIP",
+    "sha256": "3b072e97b6ce07dcae32c66884c201e10a83733c19620aaa8dbf14aae1acb01b",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250125T235942_20250126T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250126T235942_20250127T235942_0203.ZIP": {
+    "bytes": 440063,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:46.105223+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250126T235942_20250127T235942_0203.ZIP",
+    "sha256": "f97325da225ab0cfc7d04e6a061dbc7149279ce06ae70730ce1e397ccfb7a1bc",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250126T235942_20250127T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250127T235942_20250128T235942_0203.ZIP": {
+    "bytes": 440294,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:48.056392+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250127T235942_20250128T235942_0203.ZIP",
+    "sha256": "56cc7a8e93db35ad01f1c98825d30a9356d9059ebd55000dad80e80e61d1f6b0",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250127T235942_20250128T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250128T235942_20250129T235942_0203.ZIP": {
+    "bytes": 440006,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:50.005068+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250128T235942_20250129T235942_0203.ZIP",
+    "sha256": "0769955ae4e97851350df16f8a8771da439704faca385097de51480f02c4c7f0",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250128T235942_20250129T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250129T235942_20250130T235942_0203.ZIP": {
+    "bytes": 439974,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:51.987975+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250129T235942_20250130T235942_0203.ZIP",
+    "sha256": "34ba43177ab678f3be0cbecc275990cd207604bf5909d438944fd340b223e799",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250129T235942_20250130T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250130T235942_20250131T235942_0203.ZIP": {
+    "bytes": 440094,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:53.936117+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250130T235942_20250131T235942_0203.ZIP",
+    "sha256": "e20f05c74a1b5a5b0c5267024e25c7a747bbea51a486d46f666c9791c3797aea",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250130T235942_20250131T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250131T235942_20250201T235942_0203.ZIP": {
+    "bytes": 440261,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:55.894552+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250131T235942_20250201T235942_0203.ZIP",
+    "sha256": "225f0d3a5c1100aadb7bf14d8085f080c33912902ac13dcc33f7ceb1dd8ac34c",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250131T235942_20250201T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250201T235942_20250202T235942_0203.ZIP": {
+    "bytes": 439862,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:57.985164+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250201T235942_20250202T235942_0203.ZIP",
+    "sha256": "355e41713a4c09e8647636cbc1cf351d9077b4310ed992466f64917be817da29",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250201T235942_20250202T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_A/SW_OPER_SP3ACOM_2__20250202T235942_20250203T235942_0203.ZIP": {
+    "bytes": 439687,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:10:00.063890+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250202T235942_20250203T235942_0203.ZIP",
+    "sha256": "711104de88769a5199c4ee4fbd8a2f9c6ca23d0e688c6eaf01b9815eee987db5",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20250202T235942_20250203T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20241231T235942_20250101T235942_0203.ZIP": {
+    "bytes": 440205,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:08:55.823637+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20241231T235942_20250101T235942_0203.ZIP",
+    "sha256": "9a384de3264d385bb717575616b6af4dcce77eda53b5aaf3d216b0b9a13c4a8f",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20241231T235942_20250101T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250101T235942_20250102T235942_0203.ZIP": {
+    "bytes": 439981,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:08:57.564168+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250101T235942_20250102T235942_0203.ZIP",
+    "sha256": "9e17daff66acc7ab0b7f983a5e57db5da0e826b1d2f9db1f8a7b6eddf597655a",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250101T235942_20250102T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250102T235942_20250103T235942_0203.ZIP": {
+    "bytes": 440042,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:08:59.519036+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250102T235942_20250103T235942_0203.ZIP",
+    "sha256": "9d158ca3d4a15313f216aa8907d3dacd673026f1d5205a1fd179259cd43fb64b",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250102T235942_20250103T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250103T235942_20250104T235942_0203.ZIP": {
+    "bytes": 440241,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:01.235210+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250103T235942_20250104T235942_0203.ZIP",
+    "sha256": "f24de66f693ac1be4ebdb244680870038860277459b5a47295edda1d362ef2cb",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250103T235942_20250104T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250104T235942_20250105T235942_0203.ZIP": {
+    "bytes": 440026,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:03.282656+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250104T235942_20250105T235942_0203.ZIP",
+    "sha256": "e9ae469cfb095b95ece9ccb1984e0ecb8b608e1bedfdae19a8820ee759b7b95f",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250104T235942_20250105T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250105T235942_20250106T235942_0203.ZIP": {
+    "bytes": 440077,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:05.064574+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250105T235942_20250106T235942_0203.ZIP",
+    "sha256": "2c81d5ca2703d4bda11858c09019b4612e26481a27e61bebfe90242a04f31e09",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250105T235942_20250106T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250106T235942_20250107T235942_0203.ZIP": {
+    "bytes": 440185,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:06.796259+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250106T235942_20250107T235942_0203.ZIP",
+    "sha256": "3a36f571569521f461d851e59b1db25cbed8dae776c2115713dbe9dd6ea52e2a",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250106T235942_20250107T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250107T235942_20250108T235942_0203.ZIP": {
+    "bytes": 439985,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:08.861293+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250107T235942_20250108T235942_0203.ZIP",
+    "sha256": "f6fdc173bd9824b6606aa887630b8df71d5b897817e3e100c8820653b47221b8",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250107T235942_20250108T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250108T235942_20250109T235942_0203.ZIP": {
+    "bytes": 440042,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:10.584134+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250108T235942_20250109T235942_0203.ZIP",
+    "sha256": "08b3b4c0ad0069befde7ebd5c99ec87bcb8dbe975edb7f4e8a23a76b7c2843f8",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250108T235942_20250109T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250109T235942_20250110T235942_0203.ZIP": {
+    "bytes": 440221,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:12.447250+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250109T235942_20250110T235942_0203.ZIP",
+    "sha256": "bf2c54413cbaaf7542880ee5d53783992354a81d42956cf4bad289654904b8be",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250109T235942_20250110T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250110T235942_20250111T235942_0203.ZIP": {
+    "bytes": 440142,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:14.300834+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250110T235942_20250111T235942_0203.ZIP",
+    "sha256": "d6232c84aecf08c2eb6422382cf16383c7e3fb3f0f6f9a10d86b4cd7e1db1071",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250110T235942_20250111T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250111T235942_20250112T235942_0203.ZIP": {
+    "bytes": 439908,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:16.133350+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250111T235942_20250112T235942_0203.ZIP",
+    "sha256": "0a34e4a91f222c967cdcdb8836f8d1deb81a8746e11a4306eb0e95f929dce82a",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250111T235942_20250112T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250112T235942_20250113T235942_0203.ZIP": {
+    "bytes": 440009,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:18.093885+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250112T235942_20250113T235942_0203.ZIP",
+    "sha256": "089030b86d1fe55115242e5537f66b02ef938a6b3674635f1ec79f8c6743ebd6",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250112T235942_20250113T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250113T235942_20250114T235942_0203.ZIP": {
+    "bytes": 440080,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:19.837813+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250113T235942_20250114T235942_0203.ZIP",
+    "sha256": "0f191e76eff1447326d049919293203bbf15f84aa7fe3915853fe8dbc54e30c6",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250113T235942_20250114T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250114T235942_20250115T235942_0203.ZIP": {
+    "bytes": 440188,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:21.686196+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250114T235942_20250115T235942_0203.ZIP",
+    "sha256": "47ae164d3cf0eefcba149d47fa58830f02dc61f5eabb496b052d60b41d7b1920",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250114T235942_20250115T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250115T235942_20250116T235942_0203.ZIP": {
+    "bytes": 440075,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:23.416867+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250115T235942_20250116T235942_0203.ZIP",
+    "sha256": "fd3cff43d2af1c4a26f2a2552b0f415aba00c9e3e2466ea6c019ddb9d1474ed8",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250115T235942_20250116T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250116T235942_20250117T235942_0203.ZIP": {
+    "bytes": 440057,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:25.476086+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250116T235942_20250117T235942_0203.ZIP",
+    "sha256": "a7ee728ff7cc7e0562f2b43009ee626787aa53bdd7ad0554ae9443be586aed77",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250116T235942_20250117T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250117T235942_20250118T235942_0203.ZIP": {
+    "bytes": 439989,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:27.433105+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250117T235942_20250118T235942_0203.ZIP",
+    "sha256": "01fb860117c2c9a60566918871896feb304b4c8267de57b79ff4d8e282a21a52",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250117T235942_20250118T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250118T235942_20250119T235942_0203.ZIP": {
+    "bytes": 440191,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:29.207598+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250118T235942_20250119T235942_0203.ZIP",
+    "sha256": "3c57a4f708566d22283ab9f72e1d0c24f9a368f25736a9acf84c7a3da70564ca",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250118T235942_20250119T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250119T235942_20250120T235942_0203.ZIP": {
+    "bytes": 440112,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:30.956792+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250119T235942_20250120T235942_0203.ZIP",
+    "sha256": "82ad2f9d70bad4a3d649cd9846020687bf4152d0fdb5e5b37bb2df3d75dd7e72",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250119T235942_20250120T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250120T235942_20250121T235942_0203.ZIP": {
+    "bytes": 440046,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:32.905395+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250120T235942_20250121T235942_0203.ZIP",
+    "sha256": "35b6c263d6a71afe240a5635a32cf8e38a38eda67ad1f30983bb4757f0290760",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250120T235942_20250121T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250121T235942_20250122T235942_0203.ZIP": {
+    "bytes": 440043,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:34.842033+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250121T235942_20250122T235942_0203.ZIP",
+    "sha256": "f2a1ee9f1706dcb6fb45128b2cefdc42c7859c37e7b89f612b4f7b0cc44013a5",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250121T235942_20250122T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250122T235942_20250123T235942_0203.ZIP": {
+    "bytes": 439865,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:36.787246+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250122T235942_20250123T235942_0203.ZIP",
+    "sha256": "d78d3a028ca13c1527a1d367451db89d19b2019535f8e0f63a5f4368036970a2",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250122T235942_20250123T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250123T235942_20250124T235942_0203.ZIP": {
+    "bytes": 439862,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:38.739242+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250123T235942_20250124T235942_0203.ZIP",
+    "sha256": "4660e3ae18f1234229f35565804734542ec8708a57e0212cb9213d56aedb5ca0",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250123T235942_20250124T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250124T235942_20250125T235942_0203.ZIP": {
+    "bytes": 440027,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:40.674572+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250124T235942_20250125T235942_0203.ZIP",
+    "sha256": "15c26dfb9de78bee23f566c2f395f4ac662f7b1a5f29a89514941ae0ef16c1bf",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250124T235942_20250125T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250125T235942_20250126T235942_0203.ZIP": {
+    "bytes": 440229,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:42.619636+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250125T235942_20250126T235942_0203.ZIP",
+    "sha256": "d7dca0e4d6631b2555ba395ca50fa21f48814ac1c08f7eee028d3429106bf3ca",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250125T235942_20250126T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250126T235942_20250127T235942_0203.ZIP": {
+    "bytes": 440241,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:44.676657+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250126T235942_20250127T235942_0203.ZIP",
+    "sha256": "1dce5cd6bce29f1e565532041c6ea7bd8506d1041fbcd221870a56b5d7664e7f",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250126T235942_20250127T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250127T235942_20250128T235942_0203.ZIP": {
+    "bytes": 439958,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:46.624139+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250127T235942_20250128T235942_0203.ZIP",
+    "sha256": "d52d3f78a08bf046b47fd7e6330fbe202ece233710442e4329034e1cc78b5dc5",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250127T235942_20250128T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250128T235942_20250129T235942_0203.ZIP": {
+    "bytes": 439999,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:48.366121+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250128T235942_20250129T235942_0203.ZIP",
+    "sha256": "f173846f75dfa71bb486b808fa250470562d2944740df0bd5f53ed05fcc3fd9b",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250128T235942_20250129T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250129T235942_20250130T235942_0203.ZIP": {
+    "bytes": 440189,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:50.319910+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250129T235942_20250130T235942_0203.ZIP",
+    "sha256": "863ac1f1cc931fc342a1dbda5769440385443d4f2ed387b8f5db258b79defad5",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250129T235942_20250130T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250130T235942_20250131T235942_0203.ZIP": {
+    "bytes": 440078,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:52.045139+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250130T235942_20250131T235942_0203.ZIP",
+    "sha256": "c7f8d8a26bb3c820cdd6cc3a9e7824fc8d35624fd8e4d0c541b924136089612f",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250130T235942_20250131T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250131T235942_20250201T235942_0203.ZIP": {
+    "bytes": 440189,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:53.975237+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250131T235942_20250201T235942_0203.ZIP",
+    "sha256": "265edf3eb2826cb12623530cd2bb887bf3c5a4927845074311ca3f788962c538",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250131T235942_20250201T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250201T235942_20250202T235942_0203.ZIP": {
+    "bytes": 440008,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:56.017131+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250201T235942_20250202T235942_0203.ZIP",
+    "sha256": "3ca32436aabd608e0b490450c2dfcd7fbd536c85d05eb46ba5b343e62d6626e0",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250201T235942_20250202T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_B/SW_OPER_SP3BCOM_2__20250202T235942_20250203T235942_0203.ZIP": {
+    "bytes": 439887,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:58.000250+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250202T235942_20250203T235942_0203.ZIP",
+    "sha256": "acf7bb34b02a5005e910a084cd49294e37f4b5553e4b4b7a6fc416e7cc82c2c3",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_B%2FSW_OPER_SP3BCOM_2__20250202T235942_20250203T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20241231T235942_20250101T235942_0203.ZIP": {
+    "bytes": 440124,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:08:57.020610+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20241231T235942_20250101T235942_0203.ZIP",
+    "sha256": "4ae03bf7261c2cb34860cc0d22218e46d27c927e6df639c51a02e3a8437a8104",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20241231T235942_20250101T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250101T235942_20250102T235942_0203.ZIP": {
+    "bytes": 439990,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:08:59.012732+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250101T235942_20250102T235942_0203.ZIP",
+    "sha256": "e775c37d208d608cb323e5a9ece2066c66a19c2404f3374a1dee5e4cb1998b83",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250101T235942_20250102T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250102T235942_20250103T235942_0203.ZIP": {
+    "bytes": 440096,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:01.083145+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250102T235942_20250103T235942_0203.ZIP",
+    "sha256": "b54f501011081b2ad436ba16871c4f11e65b6e3e6c1e579ee153d47afb2ef2fa",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250102T235942_20250103T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250103T235942_20250104T235942_0203.ZIP": {
+    "bytes": 440189,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:02.764357+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250103T235942_20250104T235942_0203.ZIP",
+    "sha256": "c072a22cba07bad1fd448076e609cdd93095c1d5f143bc5755e1c144508a6762",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250103T235942_20250104T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250104T235942_20250105T235942_0203.ZIP": {
+    "bytes": 440036,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:04.750034+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250104T235942_20250105T235942_0203.ZIP",
+    "sha256": "81bc750cc70a34a9f01925a1cb57db23363331dce1772af9533a6c04b19eec21",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250104T235942_20250105T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250105T235942_20250106T235942_0203.ZIP": {
+    "bytes": 440039,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:06.489877+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250105T235942_20250106T235942_0203.ZIP",
+    "sha256": "aeec28d96e703c684553d9c1cd82be7f2111634da3a7882c1db466ea2d1b4767",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250105T235942_20250106T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250106T235942_20250107T235942_0203.ZIP": {
+    "bytes": 440110,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:08.219360+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250106T235942_20250107T235942_0203.ZIP",
+    "sha256": "6728ab384ae9663a8eeeb49518acabfad4edefdaa5c78dc68b168587ac347ec4",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250106T235942_20250107T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250107T235942_20250108T235942_0203.ZIP": {
+    "bytes": 439881,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:10.200411+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250107T235942_20250108T235942_0203.ZIP",
+    "sha256": "c6fe4f1cb7f8f066bbac6327f4b8447c8207c7fb2be6d8ce959456e54edb10ab",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250107T235942_20250108T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250108T235942_20250109T235942_0203.ZIP": {
+    "bytes": 440022,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:12.239042+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250108T235942_20250109T235942_0203.ZIP",
+    "sha256": "bd06e43711bc7e477a11a262bfae77cfce34a8afd3e9c74e91d00fb90f08f4ce",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250108T235942_20250109T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250109T235942_20250110T235942_0203.ZIP": {
+    "bytes": 440185,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:14.235546+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250109T235942_20250110T235942_0203.ZIP",
+    "sha256": "045f88c28bd8cb7e8606183a26875c8a81d3d3417db3a88123d8c187999a9b50",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250109T235942_20250110T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250110T235942_20250111T235942_0203.ZIP": {
+    "bytes": 440212,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:16.218971+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250110T235942_20250111T235942_0203.ZIP",
+    "sha256": "13ed05f500a9836dadaeaafefe1f20e8655fd44bd716cac5f5236905c2562b96",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250110T235942_20250111T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250111T235942_20250112T235942_0203.ZIP": {
+    "bytes": 440224,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:18.251120+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250111T235942_20250112T235942_0203.ZIP",
+    "sha256": "a869070d0748909945078df33078dc7a689488ff316e3a6710a28766b464a739",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250111T235942_20250112T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250112T235942_20250113T235942_0203.ZIP": {
+    "bytes": 440089,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:20.063358+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250112T235942_20250113T235942_0203.ZIP",
+    "sha256": "3fa168e59302259b9adc63ef631f920980ee3b11f38b04b245bd90ef48045e36",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250112T235942_20250113T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250113T235942_20250114T235942_0203.ZIP": {
+    "bytes": 439919,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:22.114610+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250113T235942_20250114T235942_0203.ZIP",
+    "sha256": "ac28b26cf65c8afde907856cc3f4d83122e3ec977adccf2c1984a5d2e6818985",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250113T235942_20250114T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250114T235942_20250115T235942_0203.ZIP": {
+    "bytes": 440156,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:23.867373+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250114T235942_20250115T235942_0203.ZIP",
+    "sha256": "844f27cead2f60a2393240073b40fc225e31116a7ae27b6b70507dc5a1ad58d2",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250114T235942_20250115T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250115T235942_20250116T235942_0203.ZIP": {
+    "bytes": 440175,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:25.628113+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250115T235942_20250116T235942_0203.ZIP",
+    "sha256": "e878bf7870de5710012088efd96a3c2d333e945775192418a35ca3f44077085e",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250115T235942_20250116T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250116T235942_20250117T235942_0203.ZIP": {
+    "bytes": 440082,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:27.597949+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250116T235942_20250117T235942_0203.ZIP",
+    "sha256": "78ba0ac4d5cad8506efbde51c6d4cd15d7f370102b510ef1fc1497743cf691cd",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250116T235942_20250117T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250117T235942_20250118T235942_0203.ZIP": {
+    "bytes": 439830,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:29.319558+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250117T235942_20250118T235942_0203.ZIP",
+    "sha256": "fa61ec78ed29c32cb03d321ddfa857779b8fa10999ff1a4ea0007ced8fb80435",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250117T235942_20250118T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250118T235942_20250119T235942_0203.ZIP": {
+    "bytes": 440259,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:31.069182+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250118T235942_20250119T235942_0203.ZIP",
+    "sha256": "a938c7bbab401af1d1df6602278e6c193d98492336efe4f6d5b0f8df60d581f3",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250118T235942_20250119T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250119T235942_20250120T235942_0203.ZIP": {
+    "bytes": 440107,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:33.011345+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250119T235942_20250120T235942_0203.ZIP",
+    "sha256": "0128fcc72737f1e6fb8cd1c79b9080a6ee27c321d1a03949d289c86e25493f6c",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250119T235942_20250120T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250120T235942_20250121T235942_0203.ZIP": {
+    "bytes": 440025,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:34.946823+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250120T235942_20250121T235942_0203.ZIP",
+    "sha256": "f5d6e39d34e4c34a7b964986745c97e8993c356f644e602bbf56b80865c4d533",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250120T235942_20250121T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250121T235942_20250122T235942_0203.ZIP": {
+    "bytes": 439903,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:36.910319+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250121T235942_20250122T235942_0203.ZIP",
+    "sha256": "49251e4cd0f927e3f12f438e266638337308dbd50d26100778b5074b051d8c16",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250121T235942_20250122T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250122T235942_20250123T235942_0203.ZIP": {
+    "bytes": 440117,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:38.884615+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250122T235942_20250123T235942_0203.ZIP",
+    "sha256": "a51d5e7d214f0c27eafe584141101a40e9c71a291b00f3e71215a057be225cf7",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250122T235942_20250123T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250123T235942_20250124T235942_0203.ZIP": {
+    "bytes": 440248,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:40.643655+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250123T235942_20250124T235942_0203.ZIP",
+    "sha256": "5eeb7551edb74797f717c9d8de8f40ec4ce3792145997f1638d0ed707ed25eb9",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250123T235942_20250124T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250124T235942_20250125T235942_0203.ZIP": {
+    "bytes": 439885,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:42.722971+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250124T235942_20250125T235942_0203.ZIP",
+    "sha256": "589b2d3d6dcd50b2e06a790431357c23220556dce92e504da2fbc33b3f2a1341",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250124T235942_20250125T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250125T235942_20250126T235942_0203.ZIP": {
+    "bytes": 440191,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:44.676757+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250125T235942_20250126T235942_0203.ZIP",
+    "sha256": "e5285a1b74defa5e3608883fbf358c2829703222cff0f090b1422ce0a4858b14",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250125T235942_20250126T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250126T235942_20250127T235942_0203.ZIP": {
+    "bytes": 440085,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:46.415366+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250126T235942_20250127T235942_0203.ZIP",
+    "sha256": "43ae4edc12a2d3b3d02ae433c713e2f2eeab1faea897b9bf367c738699d232c8",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250126T235942_20250127T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250127T235942_20250128T235942_0203.ZIP": {
+    "bytes": 439878,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:48.268621+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250127T235942_20250128T235942_0203.ZIP",
+    "sha256": "8628c9af6224c107faad63224c4d39cfce22d71b1401d2656c47d929e6add80f",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250127T235942_20250128T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250128T235942_20250129T235942_0203.ZIP": {
+    "bytes": 440002,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:50.111244+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250128T235942_20250129T235942_0203.ZIP",
+    "sha256": "fd409cb6f18e5d23713011804365409ca343ebce1861c946f21c501a86c28a29",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250128T235942_20250129T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250129T235942_20250130T235942_0203.ZIP": {
+    "bytes": 440093,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:51.934889+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250129T235942_20250130T235942_0203.ZIP",
+    "sha256": "7d48d4715b78e540ca7ef84828394857899c1c0d857a06b10da63e23352e0f02",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250129T235942_20250130T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250130T235942_20250131T235942_0203.ZIP": {
+    "bytes": 439876,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:53.768714+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250130T235942_20250131T235942_0203.ZIP",
+    "sha256": "aade37806ef932f2276b7c11952f3d9145f7c3daf11228e804889e81223dfe3a",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250130T235942_20250131T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250131T235942_20250201T235942_0203.ZIP": {
+    "bytes": 439928,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:55.602529+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250131T235942_20250201T235942_0203.ZIP",
+    "sha256": "9c8ef78421cb21554c014e20159a60a258ff890b0f79b5255e2fc7a5a8146677",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250131T235942_20250201T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250201T235942_20250202T235942_0203.ZIP": {
+    "bytes": 440089,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:57.597237+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250201T235942_20250202T235942_0203.ZIP",
+    "sha256": "31f3e24f93dea6892215edb93fd0c0744d21df37713e404813db5f1a95c324f4",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250201T235942_20250202T235942_0203.ZIP"
+  },
+  "reference_orbits/swarm_C/SW_OPER_SP3CCOM_2__20250202T235942_20250203T235942_0203.ZIP": {
+    "bytes": 439852,
+    "category": "precise_reference_trajectory",
+    "content_type": "application/zip",
+    "downloaded_utc": "2026-10-08T06:09:59.531350+00:00",
+    "resolved_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250202T235942_20250203T235942_0203.ZIP",
+    "sha256": "bd1070c3363b4c728e5b192d28be5c5734600c8ab383a7ee44514e8488943077",
+    "source_url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_C%2FSW_OPER_SP3CCOM_2__20250202T235942_20250203T235942_0203.ZIP"
+  },
+  "space_weather/Kp_ap_Ap_SN_F107_since_1932.txt": {
+    "bytes": 5507218,
+    "category": "space_weather",
+    "content_type": "text/plain; charset=utf-8",
+    "downloaded_utc": "2026-10-08T06:06:54.097845+00:00",
+    "resolved_url": "https://kp.gfz.de/fileadmin/files_for_gfz_cms/Kp_ap_Ap_SN_F107_since_1932.txt",
+    "sha256": "9298cad477dd2786df1c4889fe26780f88a80649aa18dda0a01699b8a2cf2980",
+    "source_url": "https://kp.gfz.de/fileadmin/files_for_gfz_cms/Kp_ap_Ap_SN_F107_since_1932.txt"
+  }
+}

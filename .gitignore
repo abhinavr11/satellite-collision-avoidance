@@ -1,0 +1,25 @@
+# Downloaded/generated datasets are deliberately not published with the code.
+/data/
+/data-*/
+
+# Python environments and generated caches.
+.venv/
+.venv-*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local-only settings, credentials, and incomplete downloads.
+.env
+.env.*
+.local/
+*.part
+*.tmp
+.DS_Store
+._*
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,880 @@
+{
+  "threshold": 0.8,
+  "rule": "Variance-weighted mean correction; apply only if fitted Gaussian probability of reducing 3-D error is at least 0.80.",
+  "formula_weights": "w_j = mean_j^2 / (mean_j^2 + variance_j); d_j = w_j * mean_j",
+  "formula_probability": "p = Phi((mean dot d - ||d||^2/2) / sqrt(sum_j variance_j*d_j^2))",
+  "training_dates": "2025-01-01 through 2025-01-17",
+  "test_dates": "2025-01-21 through 2025-01-31",
+  "changed_forecasts": 86,
+  "unchanged_forecasts": 258,
+  "comparisons": {
+    "mean_always": {
+      "forecasts": 344,
+      "original_rmse_m": 1292.2452446710824,
+      "corrected_rmse_m": 1177.6209204138636,
+      "rmse_reduction_percent": 8.87016800641386,
+      "original_mean_error_m": 897.2191667294707,
+      "corrected_mean_error_m": 822.7811054504327,
+      "original_median_error_m": 566.8872642740682,
+      "corrected_median_error_m": 535.7176806605689,
+      "improved": 199,
+      "worsened": 145,
+      "unchanged": 0
+    },
+    "weighted_always": {
+      "forecasts": 344,
+      "original_rmse_m": 1292.2452446710824,
+      "corrected_rmse_m": 1285.2220804925603,
+      "rmse_reduction_percent": 0.5434853954761287,
+      "original_mean_error_m": 897.2191667294707,
+      "corrected_mean_error_m": 885.5161603564699,
+      "original_median_error_m": 566.8872642740682,
+      "corrected_median_error_m": 567.9960925596661,
+      "improved": 249,
+      "worsened": 95,
+      "unchanged": 0
+    },
+    "gated": {
+      "forecasts": 344,
+      "original_rmse_m": 1292.2452446710824,
+      "corrected_rmse_m": 1289.849325757335,
+      "rmse_reduction_percent": 0.185407446738739,
+      "original_mean_error_m": 897.2191667294707,
+      "corrected_mean_error_m": 891.2580424063877,
+      "original_median_error_m": 566.8872642740682,
+      "corrected_median_error_m": 566.8872642740682,
+      "improved": 77,
+      "worsened": 9,
+      "unchanged": 258
+    }
+  },
+  "selected_only": {
+    "forecasts": 86,
+    "original_rmse_m": 1057.6414972694974,
+    "corrected_rmse_m": 1045.877421055149,
+    "rmse_reduction_percent": 1.1122933663930246,
+    "original_mean_error_m": 831.3212305343181,
+    "corrected_mean_error_m": 807.4767332419873,
+    "original_median_error_m": 586.6952664007953,
+    "corrected_median_error_m": 571.1597879419367,
+    "improved": 77,
+    "worsened": 9,
+    "unchanged": 0
+  },
+  "by_horizon": {
+    "6": {
+      "forecasts": 86,
+      "original_rmse_m": 697.028013655604,
+      "corrected_rmse_m": 697.0280136556041,
+      "rmse_reduction_percent": -2.220446049250313e-14,
+      "original_mean_error_m": 620.3716864158346,
+      "corrected_mean_error_m": 620.3716864158346,
+      "original_median_error_m": 512.1685443553656,
+      "corrected_median_error_m": 512.1685443553656,
+      "improved": 0,
+      "worsened": 0,
+      "unchanged": 86,
+      "changed": 0
+    },
+    "12": {
+      "forecasts": 86,
+      "original_rmse_m": 716.9001107145481,
+      "corrected_rmse_m": 716.9001107145481,
+      "rmse_reduction_percent": 0.0,
+      "original_mean_error_m": 623.9385580180511,
+      "corrected_mean_error_m": 623.9385580180513,
+      "original_median_error_m": 518.7742250356325,
+      "corrected_median_error_m": 518.7742250356325,
+      "improved": 0,
+      "worsened": 0,
+      "unchanged": 86,
+      "changed": 0
+    },
+    "24": {
+      "forecasts": 86,
+      "original_rmse_m": 642.7117715651549,
+      "corrected_rmse_m": 633.7776790204014,
+      "rmse_reduction_percent": 1.3900620682575804,
+      "original_mean_error_m": 522.9997721147487,
+      "corrected_mean_error_m": 508.73595845244995,
+      "original_median_error_m": 364.0025395496195,
+      "corrected_median_error_m": 350.65637784703404,
+      "improved": 52,
+      "worsened": 5,
+      "unchanged": 29,
+      "changed": 57
+    },
+    "48": {
+      "forecasts": 86,
+      "original_rmse_m": 2294.9332991676415,
+      "corrected_rmse_m": 2292.024686961053,
+      "rmse_reduction_percent": 0.12674059885068312,
+      "original_mean_error_m": 1821.5666503692469,
+      "corrected_mean_error_m": 1811.9859667392154,
+      "original_median_error_m": 1418.894348645367,
+      "corrected_median_error_m": 1418.8943486453668,
+      "improved": 25,
+      "worsened": 4,
+      "unchanged": 57,
+      "changed": 29
+    }
+  },
+  "groups": {
+    "Swarm-A/6": {
+      "satellite": "Swarm-A",
+      "horizon_hours": 6,
+      "training_forecasts": 46,
+      "training_issue_days": 17,
+      "mean_error_rtn_m": [
+        17.160637392996726,
+        33.38954450381177,
+        44.90669402043075
+      ],
+      "variance_rtn_m2": [
+        6332.666779873462,
+        471970.8246138207,
+        42673.68856494883
+      ],
+      "correction_weights": [
+        0.04443649029064703,
+        0.002356574537058595,
+        0.045124136107881505
+      ],
+      "candidate_correction_rtn_m": [
+        0.7625584968952134,
+        0.07868495038166758,
+        2.0263757731329055
+      ],
+      "estimated_improvement_probability": 0.5966737737144167,
+      "apply_correction": false,
+      "test_results": {
+        "forecasts": 29,
+        "original_rmse_m": 632.7521054289015,
+        "corrected_rmse_m": 632.7521054289015,
+        "rmse_reduction_percent": 0.0,
+        "original_mean_error_m": 564.3917454968474,
+        "corrected_mean_error_m": 564.3917454968474,
+        "original_median_error_m": 490.6977093646146,
+        "corrected_median_error_m": 490.69770936461464,
+        "improved": 0,
+        "worsened": 0,
+        "unchanged": 29
+      }
+    },
+    "Swarm-A/12": {
+      "satellite": "Swarm-A",
+      "horizon_hours": 12,
+      "training_forecasts": 46,
+      "training_issue_days": 17,
+      "mean_error_rtn_m": [
+        -34.41256380772956,
+        345.07165573113144,
+        -24.963861898098866
+      ],
+      "variance_rtn_m2": [
+        6516.874160230218,
+        1529224.7866472164,
+        39441.992206875926
+      ],
+      "correction_weights": [
+        0.15377345398559633,
+        0.07224079530935357,
+        0.015554511375891344
+      ],
+      "candidate_correction_rtn_m": [
+        -5.2917387972142995,
+        24.92825084873239,
+        -0.3883006738801593
+      ],
+      "estimated_improvement_probability": 0.6082278878331842,
+      "apply_correction": false,
+      "test_results": {
+        "forecasts": 29,
+        "original_rmse_m": 758.1936860519785,
+        "corrected_rmse_m": 758.1936860519785,
+        "rmse_reduction_percent": 0.0,
+        "original_mean_error_m": 656.1125810395076,
+        "corrected_mean_error_m": 656.1125810395076,
+        "original_median_error_m": 541.8011596236169,
+        "corrected_median_error_m": 541.801159623617,
+        "improved": 0,
+        "worsened": 0,
+        "unchanged": 29
+      }
+    },
+    "Swarm-A/24": {
+      "satellite": "Swarm-A",
+      "horizon_hours": 24,
+      "training_forecasts": 46,
+      "training_issue_days": 17,
+      "mean_error_rtn_m": [
+        -131.1642680881101,
+        61.07873271306814,
+        45.88293023045409
+      ],
+      "variance_rtn_m2": [
+        5588.198367671517,
+        8063462.531690007,
+        28393.75236768088
+      ],
+      "correction_weights": [
+        0.7548203869519701,
+        0.00046244232951607293,
+        0.06902664305412522
+      ],
+      "candidate_correction_rtn_m": [
+        -99.00546359253921,
+        0.0282453914397208,
+        3.167144647294886
+      ],
+      "estimated_improvement_probability": 0.8662086449076629,
+      "apply_correction": true,
+      "test_results": {
+        "forecasts": 29,
+        "original_rmse_m": 656.1371300845977,
+        "corrected_rmse_m": 643.3534866847068,
+        "rmse_reduction_percent": 1.9483188519208938,
+        "original_mean_error_m": 543.140535567723,
+        "corrected_mean_error_m": 520.2344328340688,
+        "original_median_error_m": 381.745268532202,
+        "corrected_median_error_m": 369.25594468724256,
+        "improved": 26,
+        "worsened": 3,
+        "unchanged": 0
+      }
+    },
+    "Swarm-A/48": {
+      "satellite": "Swarm-A",
+      "horizon_hours": 48,
+      "training_forecasts": 46,
+      "training_issue_days": 17,
+      "mean_error_rtn_m": [
+        0.115007974718617,
+        546.1021909590092,
+        5.020518358730795
+      ],
+      "variance_rtn_m2": [
+        8744.943316182898,
+        94792086.10731106,
+        48270.980545917475
+      ],
+      "correction_weights": [
+        1.5125100032017517e-06,
+        0.0031362563791603676,
+        0.000521896377320633
+      ],
+      "candidate_correction_rtn_m": [
+        1.7395071220988238e-07,
+        1.712716480068646,
+        0.002620190343693332
+      ],
+      "estimated_improvement_probability": 0.5223303498292173,
+      "apply_correction": false,
+      "test_results": {
+        "forecasts": 29,
+        "original_rmse_m": 2429.459622461526,
+        "corrected_rmse_m": 2429.4596224615257,
+        "rmse_reduction_percent": 2.220446049250313e-14,
+        "original_mean_error_m": 1884.4090208356981,
+        "corrected_mean_error_m": 1884.4090208356981,
+        "original_median_error_m": 1081.45573328201,
+        "corrected_median_error_m": 1081.45573328201,
+        "improved": 0,
+        "worsened": 0,
+        "unchanged": 29
+      }
+    },
+    "Swarm-B/6": {
+      "satellite": "Swarm-B",
+      "horizon_hours": 6,
+      "training_forecasts": 42,
+      "training_issue_days": 17,
+      "mean_error_rtn_m": [
+        24.496684785098843,
+        373.7555065369929,
+        -32.3218904968439
+      ],
+      "variance_rtn_m2": [
+        2762.501524853702,
+        536716.1968058193,
+        49902.45186661319
+      ],
+      "correction_weights": [
+        0.17845997513910386,
+        0.206521647588243,
+        0.020505650906466426
+      ],
+      "candidate_correction_rtn_m": [
+        4.371677757739203,
+        77.1886030051981,
+        -0.6627814031653156
+      ],
+      "estimated_improvement_probability": 0.6770926308073343,
+      "apply_correction": false,
+      "test_results": {
+        "forecasts": 29,
+        "original_rmse_m": 828.1679894972463,
+        "corrected_rmse_m": 828.1679894972463,
+        "rmse_reduction_percent": 0.0,
+        "original_mean_error_m": 758.1384506468534,
+        "corrected_mean_error_m": 758.1384506468535,
+        "original_median_error_m": 803.3454773746145,
+        "corrected_median_error_m": 803.3454773746145,
+        "improved": 0,
+        "worsened": 0,
+        "unchanged": 29
+      }
+    },
+    "Swarm-B/12": {
+      "satellite": "Swarm-B",
+      "horizon_hours": 12,
+      "training_forecasts": 42,
+      "training_issue_days": 17,
+      "mean_error_rtn_m": [
+        3.141736413469291,
+        10.779348699430084,
+        13.973978762538067
+      ],
+      "variance_rtn_m2": [
+        12133.966234745216,
+        644895.5331282039,
+        37300.78471721187
+      ],
+      "correction_weights": [
+        0.0008127997683982488,
+        0.0001801430166807644,
+        0.005207803143118647
+      ],
+      "candidate_correction_rtn_m": [
+        0.0025536026292361847,
+        0.0019418243925692095,
+        0.07277373052141896
+      ],
+      "estimated_improvement_probability": 0.5293984459809861,
+      "apply_correction": false,
+      "test_results": {
+        "forecasts": 29,
+        "original_rmse_m": 581.47143174321,
+        "corrected_rmse_m": 581.47143174321,
+        "rmse_reduction_percent": 0.0,
+        "original_mean_error_m": 522.1085326163346,
+        "corrected_mean_error_m": 522.1085326163346,
+        "original_median_error_m": 486.60090186974475,
+        "corrected_median_error_m": 486.60090186974475,
+        "improved": 0,
+        "worsened": 0,
+        "unchanged": 29
+      }
+    },
+    "Swarm-B/24": {
+      "satellite": "Swarm-B",
+      "horizon_hours": 24,
+      "training_forecasts": 42,
+      "training_issue_days": 17,
+      "mean_error_rtn_m": [
+        45.87511478514256,
+        -89.3382271592809,
+        1.926983829996618
+      ],
+      "variance_rtn_m2": [
+        8403.446427202523,
+        3347960.7875319975,
+        33751.25536335385
+      ],
+      "correction_weights": [
+        0.2002789919535984,
+        0.002378264755172055,
+        0.00011000652146257362
+      ],
+      "candidate_correction_rtn_m": [
+        9.18782174492397,
+        -0.21246995694247262,
+        0.00021198078805255527
+      ],
+      "estimated_improvement_probability": 0.6661499099045076,
+      "apply_correction": false,
+      "test_results": {
+        "forecasts": 29,
+        "original_rmse_m": 492.83055766858246,
+        "corrected_rmse_m": 492.83055766858246,
+        "rmse_reduction_percent": 0.0,
+        "original_mean_error_m": 399.8051155362813,
+        "corrected_mean_error_m": 399.8051155362813,
+        "original_median_error_m": 298.5170773594722,
+        "corrected_median_error_m": 298.5170773594722,
+        "improved": 0,
+        "worsened": 0,
+        "unchanged": 29
+      }
+    },
+    "Swarm-B/48": {
+      "satellite": "Swarm-B",
+      "horizon_hours": 48,
+      "training_forecasts": 42,
+      "training_issue_days": 17,
+      "mean_error_rtn_m": [
+        -201.52294512879885,
+        74.66963484474302,
+        11.788431458056131
+      ],
+      "variance_rtn_m2": [
+        14116.290002581152,
+        34344564.75849667,
+        30045.324471822805
+      ],
+      "correction_weights": [
+        0.742063571923923,
+        0.00016231533021596282,
+        0.004603954869566651
+      ],
+      "candidate_correction_rtn_m": [
+        -149.54283648690523,
+        0.012120026436929826,
+        0.054273406415870216
+      ],
+      "estimated_improvement_probability": 0.8569920712604286,
+      "apply_correction": true,
+      "test_results": {
+        "forecasts": 29,
+        "original_rmse_m": 1528.1147809193058,
+        "corrected_rmse_m": 1515.1137896854525,
+        "rmse_reduction_percent": 0.8507863019315831,
+        "original_mean_error_m": 1314.1377163667282,
+        "corrected_mean_error_m": 1285.7260338776678,
+        "original_median_error_m": 1053.8825917474612,
+        "corrected_median_error_m": 1039.1572730727064,
+        "improved": 25,
+        "worsened": 4,
+        "unchanged": 0
+      }
+    },
+    "Swarm-C/6": {
+      "satellite": "Swarm-C",
+      "horizon_hours": 6,
+      "training_forecasts": 47,
+      "training_issue_days": 17,
+      "mean_error_rtn_m": [
+        -0.9141477696063423,
+        28.136711678494613,
+        47.484326569803315
+      ],
+      "variance_rtn_m2": [
+        6488.94689405994,
+        493875.00280586665,
+        46907.804107315
+      ],
+      "correction_weights": [
+        0.00012876643199119796,
+        0.001600420202791779,
+        0.045863376992077695
+      ],
+      "candidate_correction_rtn_m": [
+        -0.00011771154660492037,
+        0.04503056181039017,
+        2.177791570685821
+      ],
+      "estimated_improvement_probability": 0.5856675229748943,
+      "apply_correction": false,
+      "test_results": {
+        "forecasts": 28,
+        "original_rmse_m": 605.9834547998423,
+        "corrected_rmse_m": 605.9834547998422,
+        "rmse_reduction_percent": 2.220446049250313e-14,
+        "original_mean_error_m": 535.6639051283732,
+        "corrected_mean_error_m": 535.6639051283732,
+        "original_median_error_m": 461.18824478952666,
+        "corrected_median_error_m": 461.1882447895267,
+        "improved": 0,
+        "worsened": 0,
+        "unchanged": 28
+      }
+    },
+    "Swarm-C/12": {
+      "satellite": "Swarm-C",
+      "horizon_hours": 12,
+      "training_forecasts": 47,
+      "training_issue_days": 17,
+      "mean_error_rtn_m": [
+        -22.592809280006747,
+        395.4850476836477,
+        -15.032761759308995
+      ],
+      "variance_rtn_m2": [
+        4561.278299199776,
+        1413911.725159293,
+        42651.11594674722
+      ],
+      "correction_weights": [
+        0.10064350997659252,
+        0.09960288870426824,
+        0.005270503993559222
+      ],
+      "candidate_correction_rtn_m": [
+        -2.273819626171611,
+        39.391453188636575,
+        -0.07923023088666241
+      ],
+      "estimated_improvement_probability": 0.624415693998031,
+      "apply_correction": false,
+      "test_results": {
+        "forecasts": 28,
+        "original_rmse_m": 795.597306122952,
+        "corrected_rmse_m": 795.597306122952,
+        "rmse_reduction_percent": 0.0,
+        "original_mean_error_m": 696.0822747690353,
+        "corrected_mean_error_m": 696.0822747690353,
+        "original_median_error_m": 576.1997887867183,
+        "corrected_median_error_m": 576.1997887867182,
+        "improved": 0,
+        "worsened": 0,
+        "unchanged": 28
+      }
+    },
+    "Swarm-C/24": {
+      "satellite": "Swarm-C",
+      "horizon_hours": 24,
+      "training_forecasts": 47,
+      "training_issue_days": 17,
+      "mean_error_rtn_m": [
+        -128.61780436991313,
+        137.90534882232862,
+        40.85224401449683
+      ],
+      "variance_rtn_m2": [
+        3836.4619417047697,
+        7702226.216980286,
+        30707.763313722633
+      ],
+      "correction_weights": [
+        0.8117443617795912,
+        0.0024630597067064218,
+        0.05154655758575852
+      ],
+      "candidate_correction_rtn_m": [
+        -104.40477752174745,
+        0.33966910802357153,
+        2.1057925486007196
+      ],
+      "estimated_improvement_probability": 0.8922946806464229,
+      "apply_correction": true,
+      "test_results": {
+        "forecasts": 28,
+        "original_rmse_m": 755.8393008330054,
+        "corrected_rmse_m": 743.956417643157,
+        "rmse_reduction_percent": 1.5721441286199789,
+        "original_mean_error_m": 629.7341614232954,
+        "corrected_mean_error_m": 609.6480544346625,
+        "original_median_error_m": 465.8105566997092,
+        "corrected_median_error_m": 448.6175093741878,
+        "improved": 26,
+        "worsened": 2,
+        "unchanged": 0
+      }
+    },
+    "Swarm-C/48": {
+      "satellite": "Swarm-C",
+      "horizon_hours": 48,
+      "training_forecasts": 47,
+      "training_issue_days": 17,
+      "mean_error_rtn_m": [
+        -2.3439262348349366,
+        835.8162490436409,
+        21.82709210092647
+      ],
+      "variance_rtn_m2": [
+        9111.572764546068,
+        89868714.31619686,
+        46383.81405600023
+      ],
+      "correction_weights": [
+        0.000602605020029154,
+        0.007713476918401746,
+        0.010166870468291489
+      ],
+      "candidate_correction_rtn_m": [
+        -0.0014124617156895665,
+        6.44704934502325,
+        0.22191321808958778
+      ],
+      "estimated_improvement_probability": 0.5350242812753357,
+      "apply_correction": false,
+      "test_results": {
+        "forecasts": 28,
+        "original_rmse_m": 2764.913874348627,
+        "corrected_rmse_m": 2764.913874348627,
+        "rmse_reduction_percent": 0.0,
+        "original_mean_error_m": 2282.031305460175,
+        "corrected_mean_error_m": 2282.031305460175,
+        "original_median_error_m": 2180.5216659305834,
+        "corrected_median_error_m": 2180.5216659305834,
+        "improved": 0,
+        "worsened": 0,
+        "unchanged": 28
+      }
+    }
+  },
+  "first_six_changed_examples": [
+    {
+      "satellite": "Swarm-B",
+      "horizon_hours": 48,
+      "tle_epoch_utc": "2025-01-21T14:24:42.160608Z",
+      "comparison_time_utc": "2025-01-23T14:24:42.160608Z",
+      "reference_file": "reference_orbits/swarm_B/extracted/SW_OPER_SP3BCOM_2__20250122T235942_20250123T235942_0203.sp3",
+      "model_key": "Swarm-B/48",
+      "estimated_improvement_probability": 0.8569920712604286,
+      "changed": true,
+      "original_error_m": 993.8826142176426,
+      "gated_error_m": 950.151984609053,
+      "weighted_always_error_m": 950.1519846090899,
+      "mean_always_error_m": 865.8196994493462,
+      "candidate_correction_rtn_m": [
+        -149.54283648690523,
+        0.012120026436929826,
+        0.054273406415870216
+      ],
+      "applied_correction_rtn_m": [
+        -149.54283648690523,
+        0.012120026436929826,
+        0.054273406415870216
+      ],
+      "original_position_teme_m": [
+        4712066.880072938,
+        -4573237.224215703,
+        2030662.5580766285
+      ],
+      "gated_position_teme_m": [
+        4711964.398895557,
+        -4573137.686136763,
+        2030618.367102885
+      ],
+      "reference_position_teme_m": [
+        4712177.376307223,
+        -4573010.930161499,
+        2029701.1090482941
+      ]
+    },
+    {
+      "satellite": "Swarm-C",
+      "horizon_hours": 24,
+      "tle_epoch_utc": "2025-01-21T14:52:01.075296Z",
+      "comparison_time_utc": "2025-01-22T14:52:01.075296Z",
+      "reference_file": "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250121T235942_20250122T235942_0203.sp3",
+      "model_key": "Swarm-C/24",
+      "estimated_improvement_probability": 0.8922946806464229,
+      "changed": true,
+      "original_error_m": 299.90208512081375,
+      "gated_error_m": 271.98688574281397,
+      "weighted_always_error_m": 271.986885743009,
+      "mean_always_error_m": 412.94422805256886,
+      "candidate_correction_rtn_m": [
+        -104.40477752174745,
+        0.33966910802357153,
+        2.1057925486007196
+      ],
+      "applied_correction_rtn_m": [
+        -104.40477752174745,
+        0.33966910802357153,
+        2.1057925486007196
+      ],
+      "original_position_teme_m": [
+        2450718.521638482,
+        4188389.094668455,
+        4797580.54860347
+      ],
+      "gated_position_teme_m": [
+        2450679.264596212,
+        4188326.207332742,
+        4797507.002869768
+      ],
+      "reference_position_teme_m": [
+        2450685.787094268,
+        4188102.0003017937,
+        4797660.838919862
+      ]
+    },
+    {
+      "satellite": "Swarm-A",
+      "horizon_hours": 24,
+      "tle_epoch_utc": "2025-01-21T14:52:06.808800Z",
+      "comparison_time_utc": "2025-01-22T14:52:06.808800Z",
+      "reference_file": "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250121T235942_20250122T235942_0203.sp3",
+      "model_key": "Swarm-A/24",
+      "estimated_improvement_probability": 0.8662086449076629,
+      "changed": true,
+      "original_error_m": 454.98853578515013,
+      "gated_error_m": 440.5259121976043,
+      "weighted_always_error_m": 440.5259121981896,
+      "mean_always_error_m": 510.30889911399146,
+      "candidate_correction_rtn_m": [
+        -99.00546359253921,
+        0.0282453914397208,
+        3.167144647294886
+      ],
+      "applied_correction_rtn_m": [
+        -99.00546359253921,
+        0.0282453914397208,
+        3.167144647294886
+      ],
+      "original_position_teme_m": [
+        2347166.5687550637,
+        4248091.158613479,
+        4796827.268760736
+      ],
+      "gated_position_teme_m": [
+        2347129.6857809536,
+        4248030.943590144,
+        4796757.799986386
+      ],
+      "reference_position_teme_m": [
+        2347093.933494199,
+        4247697.379708924,
+        4797043.317044467
+      ]
+    },
+    {
+      "satellite": "Swarm-C",
+      "horizon_hours": 24,
+      "tle_epoch_utc": "2025-01-21T17:59:20.179968Z",
+      "comparison_time_utc": "2025-01-22T17:59:20.179968Z",
+      "reference_file": "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250121T235942_20250122T235942_0203.sp3",
+      "model_key": "Swarm-C/24",
+      "estimated_improvement_probability": 0.8922946806464229,
+      "changed": true,
+      "original_error_m": 620.5883778638763,
+      "gated_error_m": 619.6397131735583,
+      "weighted_always_error_m": 619.6397131736852,
+      "mean_always_error_m": 745.5232207306119,
+      "candidate_correction_rtn_m": [
+        -104.40477752174745,
+        0.33966910802357153,
+        2.1057925486007196
+      ],
+      "applied_correction_rtn_m": [
+        -104.40477752174745,
+        0.33966910802357153,
+        2.1057925486007196
+      ],
+      "original_position_teme_m": [
+        2454578.6277407543,
+        4187228.161810946,
+        4796607.241098945
+      ],
+      "gated_position_teme_m": [
+        2454539.3125506104,
+        4187165.2935623215,
+        4796533.71010925
+      ],
+      "reference_position_teme_m": [
+        2454220.548473153,
+        4186902.112044413,
+        4796995.314188192
+      ]
+    },
+    {
+      "satellite": "Swarm-A",
+      "horizon_hours": 24,
+      "tle_epoch_utc": "2025-01-21T17:59:25.903968Z",
+      "comparison_time_utc": "2025-01-22T17:59:25.903968Z",
+      "reference_file": "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250121T235942_20250122T235942_0203.sp3",
+      "model_key": "Swarm-A/24",
+      "estimated_improvement_probability": 0.8662086449076629,
+      "changed": true,
+      "original_error_m": 544.4574786651019,
+      "gated_error_m": 544.4736193284983,
+      "weighted_always_error_m": 544.4736193282181,
+      "mean_always_error_m": 595.1523586188205,
+      "candidate_correction_rtn_m": [
+        -99.00546359253921,
+        0.0282453914397208,
+        3.167144647294886
+      ],
+      "applied_correction_rtn_m": [
+        -99.00546359253921,
+        0.0282453914397208,
+        3.167144647294886
+      ],
+      "original_position_teme_m": [
+        2350977.2073993376,
+        4246848.506206165,
+        4796049.502153043
+      ],
+      "gated_position_teme_m": [
+        2350940.2702670274,
+        4246788.311468371,
+        4795980.044574458
+      ],
+      "reference_position_teme_m": [
+        2350657.6363762855,
+        4246569.481410579,
+        4796390.754948999
+      ]
+    },
+    {
+      "satellite": "Swarm-C",
+      "horizon_hours": 24,
+      "tle_epoch_utc": "2025-01-21T21:06:39.269952Z",
+      "comparison_time_utc": "2025-01-22T21:06:39.269952Z",
+      "reference_file": "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250121T235942_20250122T235942_0203.sp3",
+      "model_key": "Swarm-C/24",
+      "estimated_improvement_probability": 0.8922946806464229,
+      "changed": true,
+      "original_error_m": 277.575329810951,
+      "gated_error_m": 257.2818931260363,
+      "weighted_always_error_m": 257.28189312611244,
+      "mean_always_error_m": 212.25683618038533,
+      "candidate_correction_rtn_m": [
+        -104.40477752174745,
+        0.33966910802357153,
+        2.1057925486007196
+      ],
+      "applied_correction_rtn_m": [
+        -104.40477752174745,
+        0.33966910802357153,
+        2.1057925486007196
+      ],
+      "original_position_teme_m": [
+        2458476.9975081785,
+        4186125.7615297846,
+        4795562.191903629
+      ],
+      "gated_position_teme_m": [
+        2458437.623595839,
+        4186062.9114887514,
+        4795488.676771337
+      ],
+      "reference_position_teme_m": [
+        2458250.967521006,
+        4186233.9302505427,
+        4795442.784883451
+      ]
+    }
+  ],
+  "checks": {
+    "training_only_rule": true,
+    "unchanged_positions_exactly_preserved": true,
+    "analytic_probability_monte_carlo": {
+      "Swarm-A/24": {
+        "analytic": 0.8662086449076629,
+        "monte_carlo": 0.86687
+      },
+      "Swarm-B/48": {
+        "analytic": 0.8569920712604286,
+        "monte_carlo": 0.85652
+      },
+      "Swarm-C/24": {
+        "analytic": 0.8922946806464229,
+        "monte_carlo": 0.89411
+      }
+    },
+    "max_reloaded_example_reference_difference_m": 0.0
+  },
+  "source_prediction_errors_sha256": "b872e6de4b60b478f578460f88681c94c8e7085337f163c17d460dd7944f38c7",
+  "limitations": [
+    "The reported probability is an uncalibrated plug-in Gaussian model estimate, not a validated 80% guarantee.",
+    "Only 42-47 training forecasts over 17 issue dates per group, with temporal and cross-satellite dependence.",
+    "Confidence is constant within each satellite/horizon group, not a case-specific anomaly detector.",
+    "The test period was used in previous exploratory experiments; a new independent period is needed for confirmation.",
+    "Satellite-specific fitting and variance shrinkage are both changes relative to the earlier pooled mean correction.",
+    "No verified maneuver exclusions, no rare-risk validation, and no guarantee of trajectory consistency."
+  ]
+}
