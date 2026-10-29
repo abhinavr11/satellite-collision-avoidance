@@ -1,0 +1,1003 @@
+{
+  "method": "Simple guide Sections 3\u20136; full quadratic bias, constrained sigma, full covariance and encounter-plane Pc",
+  "radii_m": {
+    "Swarm-A": 5.0,
+    "Swarm-C": 5.0
+  },
+  "combined_radius_m": 10.0,
+  "radius_source": "Illustrative configurable assumptions; not measured spacecraft dimensions",
+  "input_bundle_id": "swarm_ac_shifted_v1",
+  "input_bundle_sha256": "f2693b7ca18b8c4db731e0c26b6b122b863fda1ebefed2304485a4b14f1aa4f9",
+  "input_trajectory_hashes": {
+    "reference": "5f3f1709dd6686b40d75e28749339e47d5f806a375cfc650815050c53e1192b0",
+    "sgp4": "a9464e6de59439e197e6e1f75e0aab6cff370c7555292c78009c5c052e1880bc"
+  },
+  "split_counts": {
+    "train": 372,
+    "gap": 64,
+    "test": 228
+  },
+  "encounter_half_window_seconds": 120.0,
+  "full_trajectory_minima": {
+    "uncorrected": {
+      "elapsed_seconds": 1.7354852744754994,
+      "miss_distance_m": 107.79400904446493,
+      "boundary_minimum": false,
+      "local_minima_refined": 3
+    },
+    "corrected": {
+      "elapsed_seconds": -2807.4585563280516,
+      "miss_distance_m": 216.38914192606217,
+      "boundary_minimum": false,
+      "local_minima_refined": 3
+    },
+    "reference": {
+      "elapsed_seconds": 7.662454842453853e-08,
+      "miss_distance_m": 0.28644037410989664,
+      "boundary_minimum": false,
+      "local_minima_refined": 3
+    }
+  },
+  "models": {
+    "Swarm-A": {
+      "time_unit": "days",
+      "position_unit": "m",
+      "supported_horizon_days": [
+        0.25,
+        2.0
+      ],
+      "training_rows": 184,
+      "sample_bins_by_hours": {
+        "6.0": {
+          "rows": 46,
+          "mean_rtn_m": [
+            17.234720328566386,
+            33.3846723492967,
+            44.90380735107862
+          ],
+          "sample_covariance_rtn_m2": [
+            [
+              6337.438835465303,
+              29053.832683189128,
+              6594.753446576521
+            ],
+            [
+              29053.832683189128,
+              471963.3087135124,
+              52704.300555770795
+            ],
+            [
+              6594.753446576521,
+              52704.300555770795,
+              42674.42525430504
+            ]
+          ],
+          "sample_sigma_rtn_m": [
+            79.60803248080751,
+            686.9958578576092,
+            206.57789149447973
+          ]
+        },
+        "12.0": {
+          "rows": 46,
+          "mean_rtn_m": [
+            -34.17067926978735,
+            345.0825901094353,
+            -24.95959912162942
+          ],
+          "sample_covariance_rtn_m2": [
+            [
+              6525.616765265297,
+              -55168.560829577495,
+              3020.50496915063
+            ],
+            [
+              -55168.560829577495,
+              1529226.7128929847,
+              89857.3641830638
+            ],
+            [
+              3020.50496915063,
+              89857.3641830638,
+              39440.78466765073
+            ]
+          ],
+          "sample_sigma_rtn_m": [
+            80.78128969795726,
+            1236.619065392809,
+            198.59704093377306
+          ]
+        },
+        "24.0": {
+          "rows": 46,
+          "mean_rtn_m": [
+            -130.00348959364607,
+            61.09666698038959,
+            45.87798694163358
+          ],
+          "sample_covariance_rtn_m2": [
+            [
+              5910.130448165676,
+              -140779.26689403746,
+              911.3219369164029
+            ],
+            [
+              -140779.26689403746,
+              8063446.7662462685,
+              -79291.37001906209
+            ],
+            [
+              911.3219369164029,
+              -79291.37001906209,
+              28395.70435324747
+            ]
+          ],
+          "sample_sigma_rtn_m": [
+            76.87737279697893,
+            2839.620884246041,
+            168.5102499946145
+          ]
+        },
+        "48.0": {
+          "rows": 46,
+          "mean_rtn_m": [
+            13.724177865169079,
+            546.1696293358211,
+            5.023729544577375
+          ],
+          "sample_covariance_rtn_m2": [
+            [
+              14947.588148330828,
+              -783843.1367058168,
+              11911.723449621568
+            ],
+            [
+              -783843.1367058168,
+              94785602.02505675,
+              236291.88774491474
+            ],
+            [
+              11911.723449621568,
+              236291.88774491474,
+              48284.56188580261
+            ]
+          ],
+          "sample_sigma_rtn_m": [
+            122.26032941363616,
+            9735.789748400319,
+            219.73748402537655
+          ]
+        }
+      },
+      "directions": {
+        "R": {
+          "mean_coefficients_m": [
+            120.32304448605876,
+            -429.9119117791196,
+            187.7635236817973
+          ],
+          "sigma_coefficients_m": [
+            75.63756301155524,
+            0.0,
+            10.416284536808327
+          ],
+          "optimization": {
+            "success": true,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "nll_without_constant": 916.0465849594377,
+            "iterations": 10
+          }
+        },
+        "T": {
+          "mean_coefficients_m": [
+            -182.62095717664707,
+            1069.9307093042582,
+            -480.2204541730057
+          ],
+          "sigma_coefficients_m": [
+            433.98609900447394,
+            511.6469477095875,
+            2003.6626450445572
+          ],
+          "optimization": {
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "nll_without_constant": 1506.971330585392,
+            "iterations": 13
+          }
+        },
+        "N": {
+          "mean_coefficients_m": [
+            15.186780969552714,
+            16.899373605841447,
+            -10.025026562448085
+          ],
+          "sigma_coefficients_m": [
+            193.34505275227698,
+            0.0,
+            4.306033749487666
+          ],
+          "optimization": {
+            "success": true,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "nll_without_constant": 1065.9218339461183,
+            "iterations": 6
+          }
+        }
+      },
+      "correlation": [
+        [
+          1.0,
+          -0.30958423192177215,
+          0.2723631499618776
+        ],
+        [
+          -0.30958423192177215,
+          1.0,
+          0.17707448969871734
+        ],
+        [
+          0.27236314996187766,
+          0.17707448969871734,
+          1.0
+        ]
+      ],
+      "correlation_eigenvalue_floor_applied": false,
+      "correlation_minimum_eigenvalue_before_floor": 0.4901483858430365,
+      "mean_coefficients_m": [
+        [
+          120.32304448605876,
+          -429.9119117791196,
+          187.7635236817973
+        ],
+        [
+          -182.62095717664707,
+          1069.9307093042582,
+          -480.2204541730057
+        ],
+        [
+          15.186780969552714,
+          16.899373605841447,
+          -10.025026562448085
+        ]
+      ],
+      "sigma_coefficients_m": [
+        [
+          75.63756301155524,
+          0.0,
+          10.416284536808327
+        ],
+        [
+          433.98609900447394,
+          511.6469477095875,
+          2003.6626450445572
+        ],
+        [
+          193.34505275227698,
+          0.0,
+          4.306033749487666
+        ]
+      ]
+    },
+    "Swarm-C": {
+      "time_unit": "days",
+      "position_unit": "m",
+      "supported_horizon_days": [
+        0.25,
+        2.0
+      ],
+      "training_rows": 188,
+      "sample_bins_by_hours": {
+        "6.0": {
+          "rows": 47,
+          "mean_rtn_m": [
+            -0.8363014940193857,
+            28.132067753583105,
+            47.48197317241564
+          ],
+          "sample_covariance_rtn_m2": [
+            [
+              6495.069989418094,
+              30025.155627419692,
+              5795.612880317071
+            ],
+            [
+              30025.155627419692,
+              493868.7011737169,
+              42889.90807192421
+            ],
+            [
+              5795.612880317071,
+              42889.90807192421,
+              46908.6172128304
+            ]
+          ],
+          "sample_sigma_rtn_m": [
+            80.59199705565122,
+            702.7579250166567,
+            216.58397265917532
+          ]
+        },
+        "12.0": {
+          "rows": 47,
+          "mean_rtn_m": [
+            -22.361461552866448,
+            395.4922349837162,
+            -15.0303272762961
+          ],
+          "sample_covariance_rtn_m2": [
+            [
+              4575.610625372157,
+              -31501.312274280885,
+              2389.670078280047
+            ],
+            [
+              -31501.312274280885,
+              1413903.453808221,
+              108588.8603024413
+            ],
+            [
+              2389.670078280047,
+              108588.8603024413,
+              42649.947329571856
+            ]
+          ],
+          "sample_sigma_rtn_m": [
+            67.64326001437362,
+            1189.0767232639873,
+            206.51863676087893
+          ]
+        },
+        "24.0": {
+          "rows": 47,
+          "mean_rtn_m": [
+            -127.50577970971433,
+            137.91993236806647,
+            40.84294454114547
+          ],
+          "sample_covariance_rtn_m2": [
+            [
+              4160.874687153543,
+              -108346.579985329,
+              2197.595082160139
+            ],
+            [
+              -108346.579985329,
+              7702187.320335293,
+              -126473.35921829137
+            ],
+            [
+              2197.595082160139,
+              -126473.35921829137,
+              30709.92088144027
+            ]
+          ],
+          "sample_sigma_rtn_m": [
+            64.50484235430348,
+            2775.2814848831626,
+            175.2424631230692
+          ]
+        },
+        "48.0": {
+          "rows": 47,
+          "mean_rtn_m": [
+            10.625474956674806,
+            835.8787922223637,
+            21.82039178810301
+          ],
+          "sample_covariance_rtn_m2": [
+            [
+              15210.63452713528,
+              -747774.1749337766,
+              12231.53250966798
+            ],
+            [
+              -747774.1749337766,
+              89862388.83865215,
+              439682.7097365943
+            ],
+            [
+              12231.53250966798,
+              439682.7097365943,
+              46393.96097537684
+            ]
+          ],
+          "sample_sigma_rtn_m": [
+            123.331401221,
+            9479.57746097642,
+            215.39257409524785
+          ]
+        }
+      },
+      "directions": {
+        "R": {
+          "mean_coefficients_m": [
+            95.29414175610371,
+            -368.5906033462958,
+            161.98449293458555
+          ],
+          "sigma_coefficients_m": [
+            70.8615198784573,
+            0.0,
+            11.097462364937332
+          ],
+          "optimization": {
+            "success": true,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "nll_without_constant": 926.9779398250896,
+            "iterations": 10
+          }
+        },
+        "T": {
+          "mean_coefficients_m": [
+            -223.53181226223577,
+            1235.5393047146601,
+            -496.61527696722953
+          ],
+          "sigma_coefficients_m": [
+            498.18278282274144,
+            298.2830162747216,
+            2047.9789830051102
+          ],
+          "optimization": {
+            "success": true,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "nll_without_constant": 1536.7684169589331,
+            "iterations": 18
+          }
+        },
+        "N": {
+          "mean_coefficients_m": [
+            28.15567215109369,
+            -11.82348511148764,
+            5.0506443920309225
+          ],
+          "sigma_coefficients_m": [
+            201.60341492778855,
+            0.0,
+            1.335736074213556
+          ],
+          "optimization": {
+            "success": true,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "nll_without_constant": 1093.221870297215,
+            "iterations": 6
+          }
+        }
+      },
+      "correlation": [
+        [
+          1.0,
+          -0.20982675086785652,
+          0.26821000121239275
+        ],
+        [
+          -0.2098267508678565,
+          1.0,
+          0.18053904119076697
+        ],
+        [
+          0.26821000121239275,
+          0.18053904119076697,
+          1.0
+        ]
+      ],
+      "correlation_eigenvalue_floor_applied": false,
+      "correlation_minimum_eigenvalue_before_floor": 0.5588421675585529,
+      "mean_coefficients_m": [
+        [
+          95.29414175610371,
+          -368.5906033462958,
+          161.98449293458555
+        ],
+        [
+          -223.53181226223577,
+          1235.5393047146601,
+          -496.61527696722953
+        ],
+        [
+          28.15567215109369,
+          -11.82348511148764,
+          5.0506443920309225
+        ]
+      ],
+      "sigma_coefficients_m": [
+        [
+          70.8615198784573,
+          0.0,
+          11.097462364937332
+        ],
+        [
+          498.18278282274144,
+          298.2830162747216,
+          2047.9789830051102
+        ],
+        [
+          201.60341492778855,
+          0.0,
+          1.335736074213556
+        ]
+      ]
+    }
+  },
+  "held_out_scores": {
+    "Swarm-A": {
+      "uncorrected": {
+        "rows": 116,
+        "position_rmse_m": 1351.667755324926,
+        "mean_negative_log_likelihood": 21.81422240330788,
+        "coverage_95_percent": 0.9224137931034483,
+        "coverage_by_level": {
+          "0.5": 0.4482758620689655,
+          "0.8": 0.75,
+          "0.9": 0.8448275862068966,
+          "0.95": 0.9224137931034483,
+          "0.99": 0.9741379310344828
+        }
+      },
+      "corrected": {
+        "rows": 116,
+        "position_rmse_m": 1339.9356604979625,
+        "mean_negative_log_likelihood": 21.485796719148222,
+        "coverage_95_percent": 0.9310344827586207,
+        "coverage_by_level": {
+          "0.5": 0.5948275862068966,
+          "0.8": 0.8706896551724138,
+          "0.9": 0.9224137931034483,
+          "0.95": 0.9310344827586207,
+          "0.99": 0.9741379310344828
+        }
+      }
+    },
+    "Swarm-C": {
+      "uncorrected": {
+        "rows": 112,
+        "position_rmse_m": 1517.9124482534257,
+        "mean_negative_log_likelihood": 21.872752109790706,
+        "coverage_95_percent": 0.9464285714285714,
+        "coverage_by_level": {
+          "0.5": 0.44642857142857145,
+          "0.8": 0.7142857142857143,
+          "0.9": 0.8482142857142857,
+          "0.95": 0.9464285714285714,
+          "0.99": 0.9732142857142857
+        }
+      },
+      "corrected": {
+        "rows": 112,
+        "position_rmse_m": 1457.61539544569,
+        "mean_negative_log_likelihood": 21.500265781914955,
+        "coverage_95_percent": 0.9285714285714286,
+        "coverage_by_level": {
+          "0.5": 0.625,
+          "0.8": 0.8660714285714286,
+          "0.9": 0.9196428571428571,
+          "0.95": 0.9285714285714286,
+          "0.99": 0.9732142857142857
+        }
+      }
+    }
+  },
+  "calibration_checks": {
+    "reference_rtn_basis": true,
+    "coordinate_frame": "GCRS",
+    "max_interpolation_crosscheck_m": 0.00029776769957751375,
+    "reference_frame_roundtrip_m": 3.125919397477422e-09,
+    "sgp4_frame_roundtrip_m": 5.101063824306858e-09,
+    "latest_training_target_utc": "2025-01-19T21:53:21.998688+00:00",
+    "earliest_test_issue_utc": "2025-01-21T14:52:01.075296+00:00",
+    "excluded_maneuver_forecasts": 0,
+    "maneuver_log_supplied": false,
+    "source_hashes": {
+      "calibration_pairs_index.csv": "ec0860c638fcea74691db1f214424cd2a6a74b1b0cd2e383d99d4b715c26ed1a",
+      "earth_orientation/finals2000A.all": "9fbc14ae5e71de96cc1e6b43b54a547acc80c7a6ce910c0209ad6230ff3d30cd",
+      "orbit_predictions/calibration_window/Swarm-A_2025-01.tle": "f31fbb3e1831551adc405dcf3fe51cb77943c6724055e93702176d0c263faa24",
+      "orbit_predictions/calibration_window/Swarm-C_2025-01.tle": "a6fb450203760d628b18f3294ae018f6c2903f0903012b2cfc07435267723184",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20241231T235942_20250101T235942_0203.sp3": "62b5558d59e2d1aff019ec0fa4b2188e158364c824780ca080bbfcd8e4e7eb90",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250101T235942_20250102T235942_0203.sp3": "82f10b6668b88c94a1d99582d12d5c0b49963f5dd199b5ad58b4c5bb8b67b8b5",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250102T235942_20250103T235942_0203.sp3": "22b982ba49feb1926947ac23731564d611c2785326a108314b034ba07df769a4",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250103T235942_20250104T235942_0203.sp3": "b57df303895d64609858e0072cdf3b4efd22455f8eef74495296831acf94fe7e",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250104T235942_20250105T235942_0203.sp3": "c6420d95f3098584423dbce7ca53f00c93b6e3345155a93cad953f148aaebc31",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250105T235942_20250106T235942_0203.sp3": "08d7bc34806878a58c985ee3285452cc84506eba9e7acbd82bac67123ac78634",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250106T235942_20250107T235942_0203.sp3": "ef5147934575b56026ee0d3f2bd46b39584fbf63be2a2e1af8a73a302191d121",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250107T235942_20250108T235942_0203.sp3": "a92c664fdeb2b577f1e063529f20b59219272763b2421ff9c6ae1db84f8dd854",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250108T235942_20250109T235942_0203.sp3": "85fc99dddfbec98fd4e6bb719e8d04d01563aa5629374743808a149dd5dac8d0",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250109T235942_20250110T235942_0203.sp3": "61c878f0f7013527f18c68c415d33ab1dfd5012d9d4497d7e1169c8b2cd4ecf4",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250110T235942_20250111T235942_0203.sp3": "bb23ef346f649c27d63e751895a5bfa194c7cd77827099c67402b05e26aa20a6",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250111T235942_20250112T235942_0203.sp3": "1deb791a05e51b4f412637cb30f3f08ecbdd72939ad39119ca1f3261c2bbf534",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250112T235942_20250113T235942_0203.sp3": "4143637558ee3098362d45f8534f1a9d4e1842414bda2da90c33fcd01b4d5c82",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250113T235942_20250114T235942_0203.sp3": "4a9ef289a51646242c7076e94ff185be9eaeb9395f35e7feada3ff6a31897d40",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250114T235942_20250115T235942_0203.sp3": "0c36f92ec1db08524d0b9e8f8e6a8e068517632ec50cb4752f09a23ee1e0cb9f",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250115T235942_20250116T235942_0203.sp3": "25cc50f1817396e7b61dabc8e90c75ffe9e5fa3f230a08e90934cd2f1a8fab57",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250116T235942_20250117T235942_0203.sp3": "e3044d88601751fe7d208f0bb5f5a8ebbd6a98a36057f7a002c94120328e6905",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250117T235942_20250118T235942_0203.sp3": "83e81624fe23221279556da31a076ebd0719d3997990cead98f3bde50c719a76",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250118T235942_20250119T235942_0203.sp3": "2d21c2832f341a6e07f41c6b87251293d3578c45c2a37c5bce5a51a535331bf5",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250119T235942_20250120T235942_0203.sp3": "4d8070fcccaa25d993e9070b207390ffbe322a8f40248e55f2b7478862388fb1",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250120T235942_20250121T235942_0203.sp3": "7d9e2a366b0aa7ed5139b77e128859fa46d42f19af6daf4bd381f9d8554a1748",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250121T235942_20250122T235942_0203.sp3": "3ed72d9977c7333a206aae3ccbaa08956bd91687d539962d140e7f42bc85d8ac",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250122T235942_20250123T235942_0203.sp3": "deca8c7a91d275ba38cea3b031c4942325e4f1cd7275811d2d89ecf66e53dcd3",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250123T235942_20250124T235942_0203.sp3": "5b0bd332c97e2ff6aa38c5c7a589608bd6bc641a4a583d203dc42c04a2e43773",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250124T235942_20250125T235942_0203.sp3": "fd6f60f6f8b3fee2b3d526549d4dcc27c004a4e0dd2d4c222082eb0ee0e1466a",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250125T235942_20250126T235942_0203.sp3": "5dc70f63bc7459a437c43a3ee2fb8bc97e768e3be51806576906d54900163f93",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250126T235942_20250127T235942_0203.sp3": "431634cbdac4a116a9257e7f3e07441a1f27b661f5d6291384bef1ee65355454",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250127T235942_20250128T235942_0203.sp3": "eea232666fee81cb488cd2cb336bbdb7155291d3d3c0c3b705fb53649f5eeb36",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250128T235942_20250129T235942_0203.sp3": "3a3960a69b6cdcdb026e5d38b76b3eb514fa80e6d5921c761ed4b4e86afc981c",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250129T235942_20250130T235942_0203.sp3": "6f8acf70dcaba9ecaa178960e5adbcaf14bb7a293f09f2490264ccec1c8fbbbc",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250130T235942_20250131T235942_0203.sp3": "dd2a182c3e91bbdaa23958a254b87c7d90981da07c81f86f8fd2cfabf5e9ec06",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250131T235942_20250201T235942_0203.sp3": "2d5134881130350efd849cc2c11fc0a178be85d29ec771f26a08b16d02f7be94",
+      "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250201T235942_20250202T235942_0203.sp3": "bd07dd57e5583370fdcc3824f3299c361ee4738a9fdc27c00780e4e20adb568d",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20241231T235942_20250101T235942_0203.sp3": "9814ab2545b0b7c502c903d5426e301a7a1f6d7d930c659251aa19ce6e59ac20",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250101T235942_20250102T235942_0203.sp3": "1f6e54edb1149b750f80120716ab3de57bcb1fe6ad2b60009fd785794d32e733",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250102T235942_20250103T235942_0203.sp3": "4b208eb0375ce16e61f3f934ccfe417aa4858ac9e8cc9d0ea45c52a967532d6b",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250103T235942_20250104T235942_0203.sp3": "ba70e4c9fdce1236826cc5cd7fa089bfc0f839eb81f6e2909e58d28d74d25542",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250104T235942_20250105T235942_0203.sp3": "4e40c4aefcd118ac59785b23db11e25d3df467005157a071ab8aa2a6aaba91e3",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250105T235942_20250106T235942_0203.sp3": "2ef14417cc7f3df0a8ffa967682a217bc02b48f7ad28376ba59220ca233b9e75",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250106T235942_20250107T235942_0203.sp3": "7dfb6b3992efba61bdffbd571c372fc93420b2267e11ea31360a2bdc674257a5",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250107T235942_20250108T235942_0203.sp3": "5c35f05bc544b05342229e6e0d7a16efb0f0c0c68569c6380c645a252b9d1965",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250108T235942_20250109T235942_0203.sp3": "6519f8290876c91da89fdf14a8f916299419770038897f780096dc66efc44964",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250109T235942_20250110T235942_0203.sp3": "3bea36c01c3f693edd24dcb9a4ffd2a838cefecfdc2941b903c15268f7344bc1",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250110T235942_20250111T235942_0203.sp3": "9d86b4a45d59c2826dcfb8b371e4ad96dcc1d68e6511379608ddad180379cb7c",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250111T235942_20250112T235942_0203.sp3": "72e3a2754253a5ea88248a6c371b920def0caa294bddde56ce6bb9a614c52b2b",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250112T235942_20250113T235942_0203.sp3": "284ec3a7bc9f3d5147ae9a5a265222a845d72212f8d76ed52b9d537b79857d03",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250113T235942_20250114T235942_0203.sp3": "8530eade1009f24fb6563e2aedbbc245aaf4438aee0dc5ef4f6ce5e5b03a8c9e",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250114T235942_20250115T235942_0203.sp3": "6f5ce1f3c773e46cb0811932ece4b07c3b90597716106d52aabd4e31710303b6",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250115T235942_20250116T235942_0203.sp3": "07df6f62bd80998e735ad4f8f5732f4730bbc87f181692191b6efe43f286d31a",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250116T235942_20250117T235942_0203.sp3": "86c24ce4a4db6c6a107c04e4abc718793e84e0836ff8df9be466c1412afaafdc",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250117T235942_20250118T235942_0203.sp3": "e2151f458f2970e4a2f98b8b2135df0fbfc1ea8211bdb2beedfc274a328dd716",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250118T235942_20250119T235942_0203.sp3": "b5386a76fde42a37935328c90dbe681a3c35768062f923e48579d9e7d19b4850",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250119T235942_20250120T235942_0203.sp3": "e60e1c57669498946722d942a13a5c4636d8ba82bf7f41a9f9af3355bd937cfb",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250120T235942_20250121T235942_0203.sp3": "bdd7ffb558555a27ca2d55a9bddbbb4120cd85db649c4c88fad9abecdac353cd",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250121T235942_20250122T235942_0203.sp3": "bbcddcef37a4453c2434d46a180af983791c18693d1dd4347ee57b4cad9aa373",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250122T235942_20250123T235942_0203.sp3": "ce4019fe631d9381fdc871d8e94a1d97809010ef1e091615f480852e90382842",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250123T235942_20250124T235942_0203.sp3": "f10928aee0eb114c829311c1a7946426f8fa1b0acb17d51d6d7f46f5c61c7b12",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250124T235942_20250125T235942_0203.sp3": "4c827f9793d3eafe5dd272bbea69fc9e3f8f68ee99e2e6f246d397c3e45316b9",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250125T235942_20250126T235942_0203.sp3": "5f0b952d96b69065970dcfdbea91bf4f9aee9d4dd4ca57ba49fc383dfe4f9890",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250126T235942_20250127T235942_0203.sp3": "b0a0c62244e256e38b6a73a6f700e8c198f9103191317d7da7c71b22f9a82fc3",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250127T235942_20250128T235942_0203.sp3": "da3f6b9b60d16fcf6aab1644f89406f96886a7417a55d7dabaeac37de19a27ed",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250128T235942_20250129T235942_0203.sp3": "0f5e7aef3af98b1304f044fb8642b3a188cc9079408657399fc1be81097c35b6",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250129T235942_20250130T235942_0203.sp3": "fdec7c94f210abd6b5bcdabdfbb685022655eb5cf0da99f1cbe1441b1c38ff8c",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250130T235942_20250131T235942_0203.sp3": "f6d13329c2ab54b939022ee8c74de255c7664fecd9b8d2e6b165132c9e8c4cd0",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250131T235942_20250201T235942_0203.sp3": "70ffef63aacb3baeb3aa445f548ed00011242764e150da6088fd61ea6edba648",
+      "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250201T235942_20250202T235942_0203.sp3": "7044807c6db9148c5d8ab0ee288b0c50435d1321654aebf62900e8feba182c9a"
+    }
+  },
+  "position_errors_at_reference_center_m": {
+    "Swarm-A": {
+      "uncorrected": 312.01661117279974,
+      "corrected": 645.0017198775836
+    },
+    "Swarm-C": {
+      "uncorrected": 336.6417864988508,
+      "corrected": 862.2338815468277
+    }
+  },
+  "ground_truth": {
+    "collision_label": 1,
+    "outcome": "collision",
+    "closest_approach": {
+      "elapsed_seconds": 7.662454842453853e-08,
+      "miss_distance_m": 0.28644037410989664,
+      "boundary_minimum": false,
+      "local_minima_refined": 1
+    },
+    "combined_collision_distance_m": 10.0,
+    "tca_utc": "2025-01-30T20:54:01.692525+00:00",
+    "reference_treated_as_exact": true,
+    "covariance_assigned": false,
+    "interpretation": "Deterministic outcome in the constructed encounter under the stated physical radii."
+  },
+  "encounter_results": {
+    "uncorrected": {
+      "closest_approach": {
+        "elapsed_seconds": 1.7354852744754994,
+        "miss_distance_m": 107.79400904446493,
+        "boundary_minimum": false,
+        "local_minima_refined": 1
+      },
+      "tca_utc": "2025-01-30T20:54:03.428010+00:00",
+      "relative_mean_gcrs_m": [
+        -46.17014108551666,
+        -83.14990122587187,
+        50.734213151969016
+      ],
+      "relative_velocity_gcrs_m_s": [
+        -213.24193993400422,
+        125.81356464643068,
+        12.140300614496113
+      ],
+      "relative_speed_m_s": 247.8882104797834,
+      "relative_covariance_gcrs_m2": [
+        [
+          6439555.061738487,
+          10898534.554313678,
+          -100472.74975329556
+        ],
+        [
+          10898534.55431368,
+          18772201.488429584,
+          -145428.3275989766
+        ],
+        [
+          -100472.74975329559,
+          -145428.32759897664,
+          16621.008173420654
+        ]
+      ],
+      "object_covariances_gcrs_m2": {
+        "Swarm-A": [
+          [
+            2008624.212627212,
+            3571953.810042033,
+            -42614.00187429888
+          ],
+          [
+            3571953.810042033,
+            6509076.3340347335,
+            -62638.686076815466
+          ],
+          [
+            -42614.0018742989,
+            -62638.68607681547,
+            7953.997470708424
+          ]
+        ],
+        "Swarm-C": [
+          [
+            4430930.849111275,
+            7326580.744271646,
+            -57858.74787899667
+          ],
+          [
+            7326580.744271647,
+            12263125.15439485,
+            -82789.64152216114
+          ],
+          [
+            -57858.747878996684,
+            -82789.64152216117,
+            8667.010702712229
+          ]
+        ]
+      },
+      "encounter_plane_basis": [
+        [
+          0.5081513189614415,
+          -0.04218050579352735
+        ],
+        [
+          0.8612678079655289,
+          0.0248866606358745
+        ],
+        [
+          -0.0,
+          -0.9988000095381441
+        ]
+      ],
+      "plane_mean_m": [
+        -95.07575125059805,
+        -50.795176050266036
+      ],
+      "plane_covariance_m2": [
+        [
+          25127275.72190849,
+          182330.66702334926
+        ],
+        [
+          182330.66702334938,
+          15547.725822520091
+        ]
+      ],
+      "plane_sigma_eigenaxes_m": [
+        119.2641321684226,
+        5012.8434560146725
+      ],
+      "along_velocity_mean_m": -0.0001872699730137047,
+      "quadrature": {
+        "pc": 7.649953372652827e-05,
+        "log_pc": -9.478225912228421,
+        "converged": true,
+        "absolute_difference_last_refinement": 0.0,
+        "history": [
+          {
+            "radial_order": 16,
+            "angular_order": 32,
+            "pc": 7.649953372652827e-05
+          },
+          {
+            "radial_order": 32,
+            "angular_order": 64,
+            "pc": 7.649953372652827e-05
+          }
+        ]
+      },
+      "monte_carlo": {
+        "samples": 1000000,
+        "hits": 59,
+        "pc": 5.9e-05,
+        "seed": 20261029,
+        "wilson_95_interval": [
+          4.574419378735198e-05,
+          7.609679698619343e-05
+        ],
+        "zero_hits_is_not_proof_of_zero_probability": true
+      },
+      "short_encounter_diagnostic": {
+        "supported": true,
+        "three_sigma_half_duration_s": 3.580198618503807,
+        "max_projected_nonlinearity_m": 0.0011157111024101029,
+        "nonlinearity_scale_m": 119.2641321684226,
+        "max_velocity_direction_change": 2.515771659353527e-06,
+        "max_fractional_covariance_change": 0.005674132647456484,
+        "criteria": "projected curvature < 10% of max(radius, minimum plane sigma); direction change < .05; covariance change < 10%",
+        "interpretation": "Local numerical diagnostic, not independent validation of Gaussian tails or temporal uncertainty."
+      }
+    },
+    "corrected": {
+      "closest_approach": {
+        "elapsed_seconds": 1.669834125758696,
+        "miss_distance_m": 238.2465372356229,
+        "boundary_minimum": false,
+        "local_minima_refined": 1
+      },
+      "tca_utc": "2025-01-30T20:54:03.362359+00:00",
+      "relative_mean_gcrs_m": [
+        -117.38628936634632,
+        -203.06066450948128,
+        41.81193732097745
+      ],
+      "relative_velocity_gcrs_m_s": [
+        -213.23616926724026,
+        125.8002209309816,
+        12.294383491794274
+      ],
+      "relative_speed_m_s": 247.88406833738674,
+      "relative_covariance_gcrs_m2": [
+        [
+          6439626.52023322,
+          10898566.904883943,
+          -99543.13675220513
+        ],
+        [
+          10898566.904883943,
+          18772102.316268478,
+          -143833.08165519414
+        ],
+        [
+          -99543.13675220513,
+          -143833.0816551941,
+          16595.213133527137
+        ]
+      ],
+      "object_covariances_gcrs_m2": {
+        "Swarm-A": [
+          [
+            2008648.0458455093,
+            3571966.3840910946,
+            -42313.23050373938
+          ],
+          [
+            3571966.384091095,
+            6509043.704053706,
+            -62093.238440073284
+          ],
+          [
+            -42313.23050373938,
+            -62093.23844007326,
+            7942.938679948982
+          ]
+        ],
+        "Swarm-C": [
+          [
+            4430978.474387711,
+            7326600.520792848,
+            -57229.90624846575
+          ],
+          [
+            7326600.520792848,
+            12263058.612214772,
+            -81739.84321512085
+          ],
+          [
+            -57229.90624846575,
+            -81739.84321512085,
+            8652.274453578155
+          ]
+        ]
+      },
+      "encounter_plane_basis": [
+        [
+          0.5081215399864093,
+          -0.04271743961403177
+        ],
+        [
+          0.8612853769813115,
+          0.025201462582626954
+        ],
+        [
+          -0.0,
+          -0.9987692960020937
+        ]
+      ],
+      "plane_mean_m": [
+        -234.53968310824234,
+        -41.863463213673214
+      ],
+      "plane_covariance_m2": [
+        [
+          25127257.692543607,
+          180512.5734992219
+        ],
+        [
+          180512.57349922185,
+          15508.877216073233
+        ]
+      ],
+      "plane_sigma_eigenaxes_m": [
+        119.21137891815785,
+        5012.839037600959
+      ],
+      "along_velocity_mean_m": -8.793122686374102e-05,
+      "quadrature": {
+        "pc": 7.890222375639317e-05,
+        "log_pc": -9.447301146017946,
+        "converged": true,
+        "absolute_difference_last_refinement": 0.0,
+        "history": [
+          {
+            "radial_order": 16,
+            "angular_order": 32,
+            "pc": 7.890222375639317e-05
+          },
+          {
+            "radial_order": 32,
+            "angular_order": 64,
+            "pc": 7.890222375639317e-05
+          }
+        ]
+      },
+      "monte_carlo": {
+        "samples": 1000000,
+        "hits": 73,
+        "pc": 7.3e-05,
+        "seed": 20261029,
+        "wilson_95_interval": [
+          5.8065381785340254e-05,
+          9.177550142777134e-05
+        ],
+        "zero_hits_is_not_proof_of_zero_probability": true
+      },
+      "short_encounter_diagnostic": {
+        "supported": true,
+        "three_sigma_half_duration_s": 3.58032814687977,
+        "max_projected_nonlinearity_m": 0.0020567990909634176,
+        "nonlinearity_scale_m": 119.21137891815785,
+        "max_velocity_direction_change": 4.636369770692316e-06,
+        "max_fractional_covariance_change": 0.0056743379808646315,
+        "criteria": "projected curvature < 10% of max(radius, minimum plane sigma); direction change < .05; covariance change < 10%",
+        "interpretation": "Local numerical diagnostic, not independent validation of Gaussian tails or temporal uncertainty."
+      }
+    }
+  },
+  "outcome_scores": {
+    "uncorrected": {
+      "brier_score": 0.9998470067847255,
+      "log_loss": 9.478225912228421,
+      "log_loss_is_infinite": false
+    },
+    "corrected": {
+      "brier_score": 0.9998422017780482,
+      "log_loss": 9.447301146017946,
+      "log_loss_is_infinite": false
+    }
+  },
+  "independent_object_errors_assumed": true,
+  "correction_covariance_shared_with_uncorrected": true,
+  "single_event_evaluation_only": true,
+  "software_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.18.1",
+    "astropy": "8.0.2",
+    "sgp4": "2.27",
+    "pyerfa": "2.0.1.5"
+  }
+}

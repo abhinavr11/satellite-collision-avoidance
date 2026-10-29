@@ -20,16 +20,17 @@ def main():
     size=0
     for name in names:
         path=ROOT/name
-        if name.startswith(("data/",".venv/",".local/")) or "__pycache__" in path.parts or path.suffix in {".ipynb",".pdf",".pyc"}:
+        if name.startswith(("data/","data-",".venv/",".venv-","venv/",".local/")) or "__pycache__" in path.parts or path.suffix in {".ipynb",".pdf",".pyc"}:
             forbidden.append(name)
-        if path.is_symlink():
+        index_mode=git("ls-files","-s","--",name).decode().split()[0]
+        if index_mode=="120000":
             raise SystemExit(f"Unexpected symlink: {name}")
         blob_size=int(git("cat-file","-s",":"+name))
         size+=blob_size
         if blob_size>100*1024*1024:
             raise SystemExit(f"File exceeds GitHub's ordinary-file limit: {name}")
         if path.suffix in {".py",".md",".json",".txt",".yml",".yaml"}:
-            text=path.read_text(errors="replace")
+            text=git("show",":"+name).decode(errors="replace")
             local_text=re.sub(r"(?:https?|ftp)://[^\s)>]+", "", text)
             if re.search(r"/(?:Users|home)/[^/\s]+/",local_text):
                 raise SystemExit(f"Machine-specific absolute path: {name}")
@@ -37,7 +38,21 @@ def main():
                 raise SystemExit(f"Possible credential in {name}; inspect before publishing")
     if forbidden:
         raise SystemExit("Unwanted staged files: "+", ".join(forbidden))
-    required={"README.md","requirements-lock.txt","config/source_manifest.json","scripts/download_data.py","scripts/run_all.py"}
+    required={"README.md","requirements-lock.txt","config/source_manifest.json",
+              "config/swarm_ac_shifted_encounter.json","scripts/download_data.py","scripts/run_all.py",
+              "scripts/prepare_shifted_encounter.py","scripts/check_results.py",
+              "scripts/check_collision_results.py","scripts/check_encounter_forecast_results.py",
+              "collision_probability/model.py","collision_probability/probability.py",
+              "collision_probability/data.py","collision_probability/evaluation.py",
+              "collision_probability/encounter_forecast.py","collision_probability/confidence.py",
+              "collision_probability/window_selection.py",
+              "experiments/collision_probability/run_experiment.py",
+              "experiments/encounter_train_test/run_experiment.py",
+              "experiments/encounter_train_test/report.md",
+              "experiments/encounter_train_test/summary.json",
+              "tests/test_collision_probability.py","tests/test_encounter_forecast.py",
+              "tests/test_confidence_gate.py","tests/test_window_balance.py",
+              "docs/GITHUB.md","docs/METHODS.md","docs/VALIDATION.md"}
     if not required.issubset(names):
         raise SystemExit("Required project files are not staged")
     # Verify that the dataset and virtual environments will remain excluded later.

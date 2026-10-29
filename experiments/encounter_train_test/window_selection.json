@@ -1,0 +1,129 @@
+{
+  "selected_lead_seconds": 180,
+  "training_cutoff_seconds": -180,
+  "test_end_seconds": 180,
+  "final_rolling_validation_folds": 6,
+  "selection_reference_cutoff_seconds": -360.0,
+  "confidence_threshold": 0.99,
+  "maximum_validation_rmse_ratio": 0.25,
+  "selection_rule": "Longest lead passing training-only position improvement and confidence checks for both satellites",
+  "selection_uses_test_truth": false,
+  "selection_uses_pc": false,
+  "candidates": [
+    {
+      "lead_seconds": 120,
+      "test_duration_seconds": 240,
+      "validation_folds": 6,
+      "eligible": true,
+      "objects": {
+        "Swarm-A": {
+          "selected_fit_window_seconds": 300,
+          "position_rmse_ratio": 0.012472876999100364,
+          "model_confidence": 1.0,
+          "gate_passed": true,
+          "passes_substantial_position_improvement": true
+        },
+        "Swarm-C": {
+          "selected_fit_window_seconds": 300,
+          "position_rmse_ratio": 0.04260039558978825,
+          "model_confidence": 1.0,
+          "gate_passed": true,
+          "passes_substantial_position_improvement": true
+        }
+      },
+      "latest_validation_truth_elapsed_seconds": -360.0
+    },
+    {
+      "lead_seconds": 180,
+      "test_duration_seconds": 360,
+      "validation_folds": 6,
+      "eligible": true,
+      "objects": {
+        "Swarm-A": {
+          "selected_fit_window_seconds": 300,
+          "position_rmse_ratio": 0.023820265130140388,
+          "model_confidence": 0.9999999999903272,
+          "gate_passed": true,
+          "passes_substantial_position_improvement": true
+        },
+        "Swarm-C": {
+          "selected_fit_window_seconds": 300,
+          "position_rmse_ratio": 0.022493215103190568,
+          "model_confidence": 1.0,
+          "gate_passed": true,
+          "passes_substantial_position_improvement": true
+        }
+      },
+      "latest_validation_truth_elapsed_seconds": -360.0
+    },
+    {
+      "lead_seconds": 240,
+      "test_duration_seconds": 480,
+      "validation_folds": 6,
+      "eligible": false,
+      "objects": {
+        "Swarm-A": {
+          "selected_fit_window_seconds": 300,
+          "position_rmse_ratio": 0.08691285626327717,
+          "model_confidence": 0.8896737549789189,
+          "gate_passed": false,
+          "passes_substantial_position_improvement": true
+        },
+        "Swarm-C": {
+          "selected_fit_window_seconds": 300,
+          "position_rmse_ratio": 0.038313665210830065,
+          "model_confidence": 1.0,
+          "gate_passed": true,
+          "passes_substantial_position_improvement": true
+        }
+      },
+      "latest_validation_truth_elapsed_seconds": -360.0
+    },
+    {
+      "lead_seconds": 300,
+      "test_duration_seconds": 600,
+      "validation_folds": 4,
+      "eligible": false,
+      "objects": {
+        "Swarm-A": {
+          "selected_fit_window_seconds": 600,
+          "position_rmse_ratio": 0.07649582261101777,
+          "model_confidence": 0.9913664381394072,
+          "gate_passed": true,
+          "passes_substantial_position_improvement": true
+        },
+        "Swarm-C": {
+          "selected_fit_window_seconds": 600,
+          "position_rmse_ratio": 0.12107198742294496,
+          "model_confidence": 0.8960136315494354,
+          "gate_passed": false,
+          "passes_substantial_position_improvement": true
+        }
+      },
+      "latest_validation_truth_elapsed_seconds": -360.0
+    },
+    {
+      "lead_seconds": 360,
+      "test_duration_seconds": 720,
+      "validation_folds": 4,
+      "eligible": false,
+      "objects": {
+        "Swarm-A": {
+          "selected_fit_window_seconds": 300,
+          "position_rmse_ratio": 0.060741151903115326,
+          "model_confidence": 0.8803968947226875,
+          "gate_passed": false,
+          "passes_substantial_position_improvement": true
+        },
+        "Swarm-C": {
+          "selected_fit_window_seconds": 300,
+          "position_rmse_ratio": 0.0990287687683144,
+          "model_confidence": 0.9999990426676763,
+          "gate_passed": true,
+          "passes_substantial_position_improvement": true
+        }
+      },
+      "latest_validation_truth_elapsed_seconds": -360.0
+    }
+  ]
+}

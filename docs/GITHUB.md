@@ -1,53 +1,62 @@
-# Using this GitHub version
+# Using the finalized GitHub repository
 
-This is a standalone repository folder for the data-download workflow and the three variance/correction experiments. It contains no notebooks, proposal PDFs, raw numerical datasets, or Python environment. Its saved experiment outputs and figures are included.
+The repository contains five reproducible experiments, the collision-probability implementation, 31 tests, source-data manifests, the shifted-encounter recipe, saved derived results and figures. Downloaded SP3/TLE source collections, virtual environments, temporary files and caches are excluded.
 
-## Publish the prepared local repository
+## Push the prepared feature branch
 
-The local branch is `codex/github-ready`. Create an empty GitHub repository, without initializing another README, then run from this folder:
+Run from the repository folder. The configured remote is `https://github.com/abhinavr11/satellite-collision-avoidance.git` and the feature branch is `codex/collision-probability`.
 
 ```bash
+git status --short
 python3.12 scripts/check_github_ready.py
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-git push -u origin HEAD:main
+git push -u origin codex/collision-probability
 ```
 
-Replace the example URL. The final command creates/updates remote `main` from the local prepared branch. Authentication uses your normal GitHub SSH or HTTPS setup. No token should be placed in source code or committed configuration. If `origin` already exists, inspect it with `git remote -v` and use `git remote set-url origin ...` if necessary.
+The push publishes the feature branch. It does not replace `main` or merge changes. Authentication uses the normal Git credential setup; credentials do not belong in source files. The finalization workflow creates a local commit; no remote upload is performed automatically.
 
-For later edits:
+For later edits, review and stage the intended files, run the checks, and commit before pushing:
 
 ```bash
-git add .
+git add <files-you-changed>
 python3.12 scripts/check_github_ready.py
 git commit -m "Describe the change"
-git push origin HEAD:main
+git push
 ```
-
-## What is excluded
-
-`.gitignore` excludes `/data/`, virtual environments, Python bytecode, local settings, credentials files, and incomplete downloads. The preflight checker examines the staged/tracked files and fails if raw data, environments, notebooks, PDF proposals, symlinks, machine-specific paths, or oversized ordinary Git blobs are present.
-
-GitHub's [ordinary-file limit is 100 MiB](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github). This version avoids the limit by leaving raw data out of Git. **Git LFS is not required.** Do not force-add `data/`.
 
 ## Clone and reproduce
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-cd YOUR_REPOSITORY
+git clone --branch codex/collision-probability https://github.com/abhinavr11/satellite-collision-avoidance.git
+cd satellite-collision-avoidance
 python3.12 -m venv .venv
 .venv/bin/python -m pip install -r requirements-lock.txt
 .venv/bin/python scripts/download_data.py
 .venv/bin/python scripts/run_all.py
 ```
 
-The default downloader obtains the core Swarm inputs. Add `--all` to also obtain the optional conjunction, orbital-snapshot, weather, and documentation files. Internet is needed for installation and downloading. Once data are present, the experiments use the local files.
+Use `.venv\Scripts\python.exe` on Windows. The default core downloader supplies every input needed by all five experiments. The shifted Swarm A/C bundle is reconstructed automatically from `config/swarm_ac_shifted_encounter.json`; no original machine paths or temporary search files are required. Add `--all` only for the optional conjunction/weather/source-documentation collection.
 
-## Inspect before pushing
+A custom existing data directory works with:
 
 ```bash
-git status --short
-git ls-files data
-python3.12 scripts/check_github_ready.py
+.venv/bin/python scripts/run_all.py --data-dir /path/to/data
 ```
 
-`git ls-files data` should print nothing, even after running the downloader. Review the data-source notices; provider terms still apply when someone downloads data using these scripts. Review the results' limitations before describing them as improvements to SGP4.
+## Check saved results without downloading data
+
+The source-independent numerical tests and saved-result validators require the installed dependencies but no downloaded raw data:
+
+```bash
+.venv/bin/python -m unittest discover -s tests -v
+.venv/bin/python scripts/check_results.py
+.venv/bin/python scripts/check_collision_results.py
+.venv/bin/python scripts/check_encounter_forecast_results.py
+```
+
+The current comparison, selected split, confidence decisions and both uncertainty assumptions are in [the encounter report](../experiments/encounter_train_test/report.md). [Methods](METHODS.md) explains the conditional probability model and its limits; [validation](VALIDATION.md) records the checks. Reference trajectories supply a binary collision label rather than a reference Pc.
+
+## What stays local
+
+`.gitignore` excludes downloaded `data/`, `data-*` directories, environments, Python caches, local settings and incomplete downloads. Saved derived experiment outputs are intentionally included. Git LFS is not required. Do not force-add the raw data or environment.
+
+The preflight checker verifies staged blobs, including ignored-path violations and the required implementation/tests. It does not push, create a remote repository, or merge anything. Review the [data-source notices](DATA_SOURCES.md); provider terms still apply to data obtained with the downloader.

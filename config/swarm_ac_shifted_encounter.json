@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.1",
+  "dataset_id": "swarm_ac_shifted_v1",
+  "type": "constructed_time_shift_encounter",
+  "created_date": "2026-10-29",
+  "coordinate_frame": "GCRS",
+  "units": {
+    "position": "m",
+    "velocity": "m/s",
+    "elapsed_time": "s"
+  },
+  "time_scale": "UTC",
+  "synthetic_center_utc": "2025-01-30T20:54:01.692525Z",
+  "window": {
+    "start_elapsed_seconds": -3600,
+    "stop_elapsed_seconds": 3600,
+    "step_seconds": 1
+  },
+  "mapping": "synthetic_time = source_time + source_to_synthetic_shift_seconds; transform positions and velocities to native-epoch GCRS before relabelling time",
+  "source_sp3_time_scale": "GPS",
+  "gps_minus_utc_seconds": 18,
+  "objects": [
+    {
+      "satellite": "Swarm-A",
+      "norad_id": 39452,
+      "sp3_id": "L47",
+      "source_center_utc": "2025-01-30T20:54:01.692525Z",
+      "source_to_synthetic_shift_seconds": 0.0,
+      "reference_sp3": {
+        "path": "sources/SW_OPER_SP3ACOM_2__20250129T235942_20250130T235942_0203.sp3",
+        "sha256": "6f8acf70dcaba9ecaa178960e5adbcaf14bb7a293f09f2490264ccec1c8fbbbc",
+        "original_data_path": "reference_orbits/swarm_A/extracted/SW_OPER_SP3ACOM_2__20250129T235942_20250130T235942_0203.sp3"
+      },
+      "tle": {
+        "path": "sources/swarm_a.tle",
+        "sha256": "a76009b7e6ff0bc2cc08504d38023e24cdbfdad30532687c2d8813cb84603cf2",
+        "original_data_path": "orbit_predictions/calibration_window/Swarm-A_2025-01.tle",
+        "original_pair_index_zero_based": 83,
+        "original_history_sha256": "f31fbb3e1831551adc405dcf3fe51cb77943c6724055e93702176d0c263faa24",
+        "source_epoch_utc": "2025-01-29T21:06:00.790848Z",
+        "synthetic_epoch_utc_for_age_bookkeeping_only": "2025-01-29T21:06:00.790848Z",
+        "age_at_center_hours": 23.800250465833333
+      }
+    },
+    {
+      "satellite": "Swarm-C",
+      "norad_id": 39453,
+      "sp3_id": "L49",
+      "source_center_utc": "2025-02-01T02:33:11.651308Z",
+      "source_to_synthetic_shift_seconds": -106749.958783,
+      "reference_sp3": {
+        "path": "sources/SW_OPER_SP3CCOM_2__20250131T235942_20250201T235942_0203.sp3",
+        "sha256": "70ffef63aacb3baeb3aa445f548ed00011242764e150da6088fd61ea6edba648",
+        "original_data_path": "reference_orbits/swarm_C/extracted/SW_OPER_SP3CCOM_2__20250131T235942_20250201T235942_0203.sp3"
+      },
+      "tle": {
+        "path": "sources/swarm_c.tle",
+        "sha256": "62948e79f4e9a991cccbfc120f081282e786d2606b86e27a2efb6b891e28db28",
+        "original_data_path": "orbit_predictions/calibration_window/Swarm-C_2025-01.tle",
+        "original_pair_index_zero_based": 88,
+        "original_history_sha256": "a6fb450203760d628b18f3294ae018f6c2903f0903012b2cfc07435267723184",
+        "source_epoch_utc": "2025-01-30T20:30:36.277920Z",
+        "synthetic_epoch_utc_for_age_bookkeeping_only": "2025-01-29T14:51:26.319137Z",
+        "age_at_center_hours": 30.04315927444445
+      }
+    }
+  ],
+  "earth_orientation": {
+    "path": "sources/finals2000A.all",
+    "sha256": "9fbc14ae5e71de96cc1e6b43b54a547acc80c7a6ce910c0209ad6230ff3d30cd",
+    "original_data_path": "earth_orientation/finals2000A.all"
+  },
+  "reference_center_check_from_feasibility": {
+    "separation_m": 0.2864515136836642,
+    "relative_speed_m_s": 248.10031931623473
+  },
+  "assumptions": [
+    "Reference orbits are approximate truth, not exact measurements.",
+    "Time shifting constructs an encounter; this is not an observed historical conjunction.",
+    "Only native time labels are shifted after conversion to GCRS; no spatial offset or rotation is applied.",
+    "The TLE files retain their native epochs and must be propagated at source times.",
+    "No uncertainty, covariance, object sizes, collision probability, or maneuvers are assigned."
+  ]
+}

@@ -1,0 +1,6 @@
+numpy==2.3.5
+scipy==1.18.1
+astropy==8.0.2
+pyerfa==2.0.1.5
+sgp4==2.27
+matplotlib==3.11.2

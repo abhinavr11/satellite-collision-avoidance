@@ -44,7 +44,37 @@ The estimated probability is a plug-in model probability. It ignores uncertainty
 
 No verified maneuver history is available. All valid indexed comparisons were retained; no residuals were removed after looking at test outcomes. Some training errors reach approximately 58 km at 48 hours, and their cause is not established. This affects both scales and mean estimates.
 
-The corrections are point-prediction adjustments at specific horizons. They do not define one dynamically consistent orbit. These experiments do not validate collision probabilities, rare collision-probability tails, or avoidance maneuvers. More independent time periods and better maneuver labels are needed before stronger claims.
+The first three experiments make point-prediction adjustments at specific horizons. They do not define one dynamically consistent orbit. More independent time periods and better maneuver labels are needed before stronger claims.
+
+## Collision probability experiment
+
+Experiment 4 follows Sections 3–6 of `Collision_Avoidance_Simple_Guide.md`. It recomputes Swarm A/C errors in GCRS using the reference RTN basis, then fits each satellite separately using January 1–17 issue dates. The original pilot's predicted-basis residuals are not reused. The January 18–20 gap and January 21–31 held-out period are preserved. Full K−1 sample covariances are saved for all four bins. Marginal Gaussian likelihood fits each mean quadratic and positive, nondecreasing standard-deviation quadratic in days; a correlation matrix of standardized training residuals supplies cross-direction terms.
+
+The corrected mean adds predicted RTN basis times fitted bias; the uncorrected mean remains SGP4. Both methods use the same centred covariance function, so this is a controlled mean-correction ablation, not a refitted zero-mean baseline. Native TLE ages are preserved by the time shift. Continuous position splines supply mean derivatives for the relative velocity, including the correction's time dependence. All trajectories use the common synthetic UTC labels after native-epoch GCRS conversion.
+
+The fixed encounter is assessed inside ±120 s of the stored reference crossing; each technique finds its own TCA within that event. The full two-hour inputs contain three different close approaches and are not treated as a single encounter. Independent-error relative covariance is projected onto the plane perpendicular to relative mean velocity. Positive-definite 2-D Gaussian probability is integrated over the combined-radius disk with Gauss–Legendre radial and angular rules; refinement must converge and seeded direct Monte Carlo checks sampling agreement. Local curvature, covariance variation and encounter duration are reported as short-encounter diagnostics.
+
+The reference trajectories are treated as exact ground truth for the constructed case. Their continuous minimum separation determines the binary label y = 1 if the separation is at most R_A + R_C, otherwise y = 0. No covariance or collision probability is assigned to the reference trajectories. Only the two prediction techniques have probability forecasts. Their Brier scores (Pc−y)^2 and binary log losses −y log(Pc)−(1−y) log(1−Pc) are reported. Lower is better; a higher Pc scores better on a collision and worse on a non-collision. One selected constructed event cannot establish calibration or general Pc accuracy; validation needs collision and non-collision cases.
+
+Default radii are configurable illustrative 5 m per object, giving a combined collision distance of 10 m. No verified maneuver log is available; optional supplied intervals are screened for overlap with the entire forecast interval. Otherwise all residuals are retained and the limitation is reported. Neither rare-event probability calibration nor avoidance maneuvers are validated by these experiments.
+
+## Balanced forecast lead and confidence gating
+
+Experiment 5 selects among 2-, 3-, 4-, 5- and 6-minute leads, with symmetric held-out windows. A common selection prefix ends six minutes before the saved crossing, no later than any candidate outer cutoff. Selection uses only reference states in that prefix. Rolling position forecasts must reduce RMSE by at least 75% for both objects and satisfy the existing 99% confidence/position gate. The longest eligible lead is used; insufficient-history or failed candidates remain in the record. Three to six nonoverlapping validation blocks are used as history permits. Test Pc and test errors never enter selection.
+
+The selected current lead is three minutes, yielding 3421 training-prefix timestamps and 360 test timestamps per object. Final models are refitted on the selected recent window at the actual cutoff. This can still cause a gate to withhold correction; the outcome is retained rather than choosing another split. Original TLE epochs and forecast ages are preserved.
+
+Recent fitting windows of 300, 600, 900 and 1800 seconds are evaluated by rolling training-only validation. Standardized forecast errors inflate the spreads by at least one and calibrate the correlation. The conditional improvement gate remains Phi((muᵀd−||d||²/2)/sqrt(dᵀPd)), with variance-shrunk d_j = mu_j²/(mu_j²+P_jj)*mu_j. Every validation block must improve RMSE and at least the threshold fraction of positions; minimum projected model confidence over the predefined future grid must pass 0.99. Gate decisions stay fixed across the holdout. This is model confidence, not a demonstrated 99% empirical guarantee.
+
+## Centred covariance versus unremoved-bias error budget
+
+P describes scatter after subtracting the fitted error mean mu. The old raw-mean baseline used this narrow centred residual covariance while leaving mu unapplied, which can generate extreme tail probabilities. The original control remains available explicitly as covariance-mode residual.
+
+The default second_moment mode instead uses S = P + (mu−d)(mu−d)^T as the covariance parameter of a zero-mean Gaussian approximation about the displayed prediction. S equals the second moment of the remaining error, not its true centred covariance. Raw SGP4 uses d=0. A fully bias-corrected prediction with d=mu uses S=P; shrinkage or a withheld gate leaves its remaining bias in the error budget. Frozen uncertainty holds S at the cutoff; projected uncertainty evaluates it at forecast time. Object error budgets are added under the stated independent zero-mean approximation and rotated into GCRS using predicted RTN.
+
+This changes the uncertainty model as well as the effect of correction and must not be presented as merely a new split or a covariance theorem. Identical-mean residual-covariance-only controls are reported alongside the primary forecasts. Neither mode is independently established as the true probability distribution, and plausible-looking probabilities do not prove calibration.
+
+Tests check second moments against Gaussian samples, preserve trajectories across uncertainty modes, and verify exact equivalence between withheld corrected and projected raw predictions. Changing reference states after the common selection cutoff cannot change the selected lead. Other tests verify that test truth cannot alter fitted parameters or gates. Held-out position errors and collision labels are calculated only after predictions are fixed. The same case was previously inspected; independent encounters and both outcomes are needed for general claims.
 
 ## Method references
 
