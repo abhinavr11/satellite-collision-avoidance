@@ -268,14 +268,14 @@ See [Methods](docs/METHODS.md), [data sources](docs/DATA_SOURCES.md), [the archi
 
 ## Push this GitHub version
 
-The finalized feature branch is `codex/collision-probability`. The configured `origin` is [abhinavr11/satellite-collision-avoidance](https://github.com/abhinavr11/satellite-collision-avoidance). From this repository folder:
+The finalized code is on `main`. The configured `origin` is [abhinavr11/satellite-collision-avoidance](https://github.com/abhinavr11/satellite-collision-avoidance). From this repository folder:
 
 ```bash
 python3.12 scripts/check_github_ready.py
-git push -u origin codex/collision-probability
+git push -u origin main
 ```
 
-This pushes the feature branch without replacing `main`. The preflight checks the actual Git index for accidentally included inputs, environments, notebooks, credentials, machine-specific paths and oversized files. Downloaded `data/` and environments remain ignored. A local commit is necessary before pushing later edits; see [GitHub instructions](docs/GITHUB.md).
+This pushes the committed local `main` branch to the configured remote. The preflight checks the actual Git index for accidentally included inputs, environments, notebooks, credentials, machine-specific paths and oversized files. Downloaded `data/` and environments remain ignored. A local commit is necessary before pushing later edits; see [GitHub instructions](docs/GITHUB.md).
 
 ## Attribution and licensing
 

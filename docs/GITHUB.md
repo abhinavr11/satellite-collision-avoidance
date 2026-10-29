@@ -2,17 +2,17 @@
 
 The repository contains five reproducible experiments, the collision-probability implementation, 31 tests, source-data manifests, the shifted-encounter recipe, saved derived results and figures. Downloaded SP3/TLE source collections, virtual environments, temporary files and caches are excluded.
 
-## Push the prepared feature branch
+## Push main
 
-Run from the repository folder. The configured remote is `https://github.com/abhinavr11/satellite-collision-avoidance.git` and the feature branch is `codex/collision-probability`.
+Run from the repository folder. The configured remote is `https://github.com/abhinavr11/satellite-collision-avoidance.git` and the finalized branch is `main`.
 
 ```bash
 git status --short
 python3.12 scripts/check_github_ready.py
-git push -u origin codex/collision-probability
+git push -u origin main
 ```
 
-The push publishes the feature branch. It does not replace `main` or merge changes. Authentication uses the normal Git credential setup; credentials do not belong in source files. The finalization workflow creates a local commit; no remote upload is performed automatically.
+The push updates the remote `main` with the committed local changes. Authentication uses the normal Git credential setup; credentials do not belong in source files. The finalization workflow creates a local commit; no remote upload is performed automatically.
 
 For later edits, review and stage the intended files, run the checks, and commit before pushing:
 
@@ -26,7 +26,7 @@ git push
 ## Clone and reproduce
 
 ```bash
-git clone --branch codex/collision-probability https://github.com/abhinavr11/satellite-collision-avoidance.git
+git clone --branch main https://github.com/abhinavr11/satellite-collision-avoidance.git
 cd satellite-collision-avoidance
 python3.12 -m venv .venv
 .venv/bin/python -m pip install -r requirements-lock.txt
