@@ -491,6 +491,30 @@ def build():
                          f'{outcome_scores[method]["log_loss"]:.4f}'])
         table(["Forecast", "Predicted closest separation (m)", "Pc", "Lead to predicted closest approach (s)", "Log loss: lower is better"], rows)
     ''')
+    markdown(r"""
+    ## **The key change: 107.79 m without correction → 4.63 m with correction**
+
+    > **Without correction: SGP4 predicts a closest separation of 107.79 m.**
+    > This is **larger than the 10 m combined collision distance**, so the
+    > uncorrected predicted paths indicate **a miss: no physical collision**.
+    > Both uncorrected methods have this same closest separation; changing
+    > the error budget alone does not move their trajectories.
+    >
+    > **With the gated correction: the predicted closest separation falls to
+    > 4.63 m.** This is **inside the 10 m collision distance**, so the corrected
+    > predicted paths indicate **a collision**.
+    >
+    > **Ground truth for this constructed case: 0.286 m closest separation.**
+    > The reference paths also indicate **a collision** under the same assumed
+    > radii. The correction therefore changes the predicted geometry from a
+    > **107.79 m miss** to a **4.63 m collision**, much closer to the reference
+    > encounter.
+
+    These numbers describe the bundled dataset with the default settings, at
+    each trajectory pair's own closest approach. **A miss of the uncorrected
+    mean paths does not mean zero collision probability:** once uncertainty
+    is included, their Pc values remain nonzero, as shown in the table above.
+    """)
     code('See the encounter and the probability comparison', r'''
         fig, axes = plt.subplots(1, 2, figsize=(11, 4))
         zoom_times = np.linspace(-8, 8, 1601)
