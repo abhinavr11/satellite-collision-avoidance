@@ -2,7 +2,21 @@
 
 A small Python project using historical Swarm orbital elements and precise reference trajectories. It includes five experiments, saved results, plots, and a downloader that recreates the required data folders.
 
-**Raw data are not committed.** There are no notebooks or proposal documents. The `data/` directory is created locally by the downloader and is excluded from Git. Git LFS is not required.
+**The selected shifted Swarm A/C dataset and a professor-facing Colab notebook are included.** The larger historical collection in `data/` and Python environments remain excluded from Git. Git LFS is not required.
+
+## Run the two-deliverable demonstration in Colab
+
+[**Open the notebook in Google Colab**](https://colab.research.google.com/github/abhinavr11/satellite-collision-avoidance/blob/main/notebooks/Shifted_Swarm_Demo.ipynb) after pushing the updated `main` branch. Choose **Runtime → Run all** on a CPU runtime. No data upload, API key or code editing is needed.
+
+The [notebook](notebooks/Shifted_Swarm_Demo.ipynb) clones this repository and uses only [`datasets/swarm_ac_shifted_v1`](datasets/README.md) to show **trajectory correction** and **collision-probability estimation**. It includes the main equations in explanatory Markdown boxes, plots and result tables, with derivations and numerical controls in an appendix. Saved outputs can also be read on GitHub. This demonstration needs no bulk download or earlier experiment outputs.
+
+For the same encounter experiment locally, install the runtime dependencies and run:
+
+```bash
+python experiments/encounter_train_test/run_experiment.py
+```
+
+The code prefers the versioned input bundle, including when a bulk-data location is supplied. Use the existing rebuild option to reconstruct a separate copy from the original collection.
 
 ## What this project tests
 
@@ -58,6 +72,9 @@ The first experiment writes the error dataset used by Experiments 2 and 3. Exper
 ├── README.md
 ├── requirements.txt                 # Five primary numerical packages
 ├── requirements-lock.txt            # Tested runtime dependency versions
+├── requirements-colab.txt           # Portable notebook runtime requirements
+├── notebooks/Shifted_Swarm_Demo.ipynb # Both deliverables on one shifted case
+├── datasets/swarm_ac_shifted_v1/     # Selected inputs, native times and provenance
 ├── .gitignore                       # Excludes downloaded data and environments
 ├── config/
 │   └── source_manifest.json         # Public source URLs and archived SHA-256 hashes
@@ -218,7 +235,7 @@ Both techniques share the same covariance function. The baseline keeps the origi
 
 The two-hour dataset contains multiple passes. Assessment defaults to the same selected encounter within ±120 seconds of the saved reference crossing. Each method refines its own TCA inside that window. Original reference and predicted trajectories keep their native times and forecast ages while sharing the synthetic UTC grid.
 
-The original core download supplies all inputs. If the saved bundle is absent, it is rebuilt offline using [`config/swarm_ac_shifted_encounter.json`](config/swarm_ac_shifted_encounter.json). To prepare it explicitly:
+The versioned bundle supplies the encounter inputs. This historical-calibration experiment also uses the larger training collection from the core download. If the versioned bundle is absent, a copy is rebuilt offline using [`config/swarm_ac_shifted_encounter.json`](config/swarm_ac_shifted_encounter.json). To prepare it explicitly:
 
 ```bash
 .venv/bin/python scripts/prepare_shifted_encounter.py --data-dir /path/to/data

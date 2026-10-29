@@ -20,15 +20,19 @@ from .model import rtn_basis, evaluate_model
 
 ROOT = Path(__file__).resolve().parents[1]
 SATELLITES = ('Swarm-A', 'Swarm-C')
+BUNDLED_ENCOUNTER = ROOT/'datasets/swarm_ac_shifted_v1'
 
 
 def fingerprint(path):
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 
 
-def ensure_encounter(data_dir, rebuild=False):
-    """Reconstruct from the ordinary core download; never fetch extra data."""
-    data_dir = Path(data_dir)
+def ensure_encounter(data_dir=None, rebuild=False):
+    """Use the versioned shifted case, or rebuild from the bulk source cache."""
+    if not rebuild and (BUNDLED_ENCOUNTER/'encounter.json').is_file():
+        load_encounter(BUNDLED_ENCOUNTER)
+        return BUNDLED_ENCOUNTER
+    data_dir = Path(data_dir) if data_dir is not None else ROOT/'data'
     bundle = data_dir/'encounters/swarm_ac_shifted_v1'
     if (bundle/'encounter.json').exists() and not rebuild:
         load_encounter(bundle)

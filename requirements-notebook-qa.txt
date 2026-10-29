@@ -1,0 +1,5 @@
+# Authoring/testing tools; Colab already provides its own notebook frontend.
+nbformat>=5.10
+nbclient>=0.10
+nbconvert>=7.16
+ipykernel>=6.29

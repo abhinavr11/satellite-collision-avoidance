@@ -1,4 +1,4 @@
-# Downloaded/generated datasets are deliberately not published with the code.
+# Bulk downloads stay local; the selected case in datasets/ is versioned.
 /data/
 /data-*/
 
@@ -23,3 +23,6 @@ __pycache__/
 Thumbs.db
 .idea/
 .vscode/
+
+# Notebook reruns write outputs here; the notebook and selected inputs are tracked.
+/demo_outputs/

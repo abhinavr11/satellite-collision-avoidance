@@ -1,0 +1,7 @@
+# Portable notebook runtime. Existing compatible Colab packages are reused.
+# The exact locally tested runtime remains in requirements-lock.txt.
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+astropy>=6
+sgp4>=2.23

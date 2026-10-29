@@ -1,6 +1,6 @@
 # Data sources, downloads, and third-party notices
 
-No raw input datasets are committed. `config/source_manifest.json` contains source URLs, archived file sizes, hashes, download dates, and source categories from the October 8, 2026 collection. The Python downloader uses these recorded file URLs instead of a fragile archive-directory page number. Downloads go to ignored local `data/` by default.
+The selected shifted Swarm A/C input case is committed in [`datasets/swarm_ac_shifted_v1`](../datasets/swarm_ac_shifted_v1/README.md), including the original two daily SP3 files, two selected TLEs and pinned Earth-orientation table needed to rebuild it. Its `encounter.json` records source hashes and original collection paths. The larger source collections remain local. `config/source_manifest.json` contains source URLs, archived file sizes, hashes, download dates, and source categories from the October 8, 2026 collection. The Python downloader uses these recorded file URLs instead of a fragile archive-directory page number. Bulk downloads go to ignored local `data/` by default.
 
 ## Required experimental inputs
 

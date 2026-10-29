@@ -1,3 +1,8 @@
 * text=auto eol=lf
 *.png binary
 docs/source-notices/* -text
+# Preserve the versioned input bytes: encounter.json records SHA-256 hashes.
+datasets/swarm_ac_shifted_v1/** -text
+# CSV CRLF and fixed-width provider padding are intentional input bytes.
+datasets/swarm_ac_shifted_v1/*.csv whitespace=cr-at-eol
+datasets/swarm_ac_shifted_v1/sources/** -whitespace

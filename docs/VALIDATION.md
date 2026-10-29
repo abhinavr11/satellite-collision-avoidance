@@ -5,7 +5,7 @@ Validated October 29, 2026. These checks establish implementation and reproducib
 ## Current implementation
 
 - The complete five-experiment pipeline passed using the original downloaded source collection and the pinned Python 3.12 runtime dependencies.
-- All 31 unit tests passed. They cover analytic Gaussian/chi-square integrals, rotation invariance, covariance/projection identities, continuous closest approach, stable log-probability underflow, Monte Carlo sampling checks, quadratic constraints, chronological splitting, coordinate-origin translation, confidence gates, exact preservation of withheld corrections, and reference-data leakage checks.
+- All 34 unit tests passed. They cover analytic Gaussian/chi-square integrals, rotation invariance, covariance/projection identities, continuous closest approach, stable log-probability underflow, Monte Carlo sampling checks, quadratic constraints, chronological splitting, coordinate-origin translation, confidence gates, exact preservation of withheld corrections, reference-data leakage, bundled-data integrity and notebook Python syntax.
 - All three saved-result validators passed: original variance/correction regressions, historical-calibration collision results, and the balanced within-encounter forecasts.
 - An empty temporary data location reconstructed the Swarm A/C bundle using only copied core source files and the checked-in recipe. Reference and SGP4 trajectory tables matched the saved bundle byte for byte.
 - An explicit two-minute fixed-window/residual-covariance run reproduced the earlier result. The original residual-only comparisons remain in the final balanced report.
@@ -21,7 +21,11 @@ Validated October 29, 2026. These checks establish implementation and reproducib
 
 ## Packaging and publication
 
-Python sources parse, local Markdown links resolve, diffs pass whitespace checks, and no machine-specific source paths or downloaded data are included in the deliverable file set. The GitHub preflight checks the staged blobs, required implementation files, source notices, forbidden paths, symlinks, credential patterns and ordinary-file size limits. Downloaded data and environments remain ignored.
+The selected shifted dataset is now versioned inside the repository. Its three trajectory tables and five source files pass their SHA-256 checks; the aligned export matches every position, velocity, native timestamp, forecast age and common timestamp in the separate tables. The encounter loader prefers this bundle and works with a nonexistent external data directory. Provider file padding and CSV line endings are deliberately preserved by Git attributes so cloning cannot change their hashes.
+
+All 35 notebook cells executed successfully in a real Jupyter kernel against an isolated Git clone of the staged tree, without access to the original bulk-data folder. Both deliverables use only the bundled shifted case. Primary Pc values reproduced 0.01101010258549991 (raw/frozen), 0.217413474077313 (gated/projected) and 0.004831540716760088 (raw/projected). All 360 held-out positions improved for each satellite; crossing-time errors reproduced 312.02 → 3.42 m and 336.64 → 2.07 m. Residual-only controls and convergence/Monte Carlo checks also completed. Saved notebook outputs come from that local validation; hosted Colab was not run. The public Colab link requires pushing the updated main branch first.
+
+Python sources parse, local Markdown links resolve, and no machine-specific source paths are included. The GitHub preflight allows the requested notebook and selected bundle while checking staged blobs, source notices, forbidden bulk-data paths, symlinks, credentials and file size limits. Bulk downloads and environments remain ignored.
 
 The finalize-for-push workflow also verifies the exact staged tree from a separate temporary checkout, running all unit tests and saved-result validators without access to downloaded inputs. The code and results are then committed locally; publishing is left to the user.
 
